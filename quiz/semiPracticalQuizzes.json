@@ -154,7 +154,7 @@
   },
   {
     "question": "다음 <회원>테이블의 디그리(Degree)와 카디널리티(Cardinality)를 쓰시오",
-    "image" : "/quiz/img/img.png",
+    "image" : "/QuizPeek/quiz/img/img.png",
     "answer": "degree: 3, cardinality: 4"
   },
   {
@@ -200,7 +200,7 @@
   },
   {
     "question": "인터넷에 대한 다음 설명에서 괄호에 들어갈 알맞은 답을 <보기>에서 찾아 쓰시오. \nIP주소는 인터넷에 연결된 모든 컴퓨터 자원을 구분하기 위한 고유한 주소이다. 이러한 IP 주소의 한 종류에 해당하는 IPv4는 네트워크 부분의 길이에 따라 A 클래스에서 E클래스까지 총 5단계로 구성되어 있다. 다음은 IPv4 주소를 8비트씩 4부분으로 나누어 네트워크 주소와 호스트 주소로 구분한 것이다.",
-    "image" : "/quiz/img/img_1.png",
+    "image" : "/QuizPeek/quiz/img/img_1.png",
     "answer": "(가): C 클래스, (나): A 클래스"
   },
   {
@@ -235,5 +235,57 @@
   {
     "question": "다음 설명에 해당하는 알맞은 인터넷 서비스를 쓰시오. \n\n멀리 떨어져 있는 컴퓨터에 접속하여 자신의 컴퓨터처럼 사용할 수 있도록 해주는 서비스이다.\n프로그램을 실행하는 등 시스템 관리 작업을 할 수 있는 가상의 터미널(Virtual Terminal) 기능을 수행한다\n응용 계층(Application Layer)에서 제공하는 서비스이며, 주로 사용되는 포트 번호는 23이다. ",
     "answer": "텔넷(Telnet)"
+  },
+  {
+    "question": "다음 C 언어로 작성된 프로그램을 분석하여 그 실행 결과를 쓰시오.\n\n#include <stdio.h>\nint main()\n{\n  int sum = 0;\n  int i = 329;\n  do\n  {\n    sum = 999 % i;\n    i++;\n  } while(sum != 0);\n  printf(\"%d\", i);\n  return 0;\n}",
+    "answer": "334"
+  },
+  {
+    "question": "문제 2 다음에 제시된 통신 제어 절차를 기호(㉠~㉤)를 이용해 순서대로 나열하시오. \n ㉠ 회선 절단\n㉡ 링크 연결\n㉢ 회선 접속\n㉣ 정보 전송\n㉤ 링크 해제",
+    "answer": "ㄷ -> ㄴ -> ㄹ -> ㅁ -> ㄱ"
+  },
+  {
+    "question": "다음은 애플리케이션 테스트와 소프트웨어 개발 단계를 연결하여 표현한 소프트웨어 생명 주기의V-모델이다.\n 괄호(①~⑧)에 들어갈 알맞은 용어를 <보기>에서 찾아 쓰시오.",
+    "image": "/QuizPeek/quiz/img/img_2.png",
+    "answer": ""
+  },
+  {
+    "question": "다음 C 언어로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오.",
+    "answer": "#include <stdio.h>\n#include <string.h>\nint main()\n{\nchar *str = \"abCDEfGh\";\nint count = 0;\nfor(int i=0; i<strlen(str); i++)\n{\nchar ch = str[i];\nif(ch>='A' && ch<='Z')\n{\ncount++;\n}\n}\nprintf(\"%d\", count);\nreturn 0;\n}"
+  },
+  {
+    "question": "축적 교환 방식은 송신 측에서 전송한 데이터를 송신 측 교환기에 저장시켰다가 이를 다시 적절한 통신 경로를 선택하여 수신 측 터미널에 전송하는 방식이다. 다음 <보기>에서 축적 교환 방식을 모두 찾아기호(㉠~㉣)로 쓰시오. \n ㉠ 회선 교환 방식(Circuit Switching) \n㉡ 메시지 교환 방식(Message Switched)\n㉢ 가상 회선 방식(Virtual Circuit)\n㉣ 데이터그램 방식(Datagram)",
+    "answer": ""
+  },
+  {
+    "question": "다음 JAVA로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오 \n public class Main\n{\npublic static void main(String[] args)\n{\nint a[] = {1, 2, 3, 4, 5, 6};\nint sum = 0;\nfor(int i:a)\n{\nsum += i;\n}\nSystem.out.print(sum);\n}\n}",
+    "answer": ""
+  },
+  {
+    "question": "OSI(Open System Interconnection) 참조 모델은 다른 시스템 간의 원활한 통신을 위해 ISO(국제표준화기구)에서 제안한 통신 규약(Protocol)으로, 개방형 시스템(Open System) 간의 데이터 통신 시 필요한장비 및 처리 방법 등을 7단계로 표준화하여 규정했다. 또한 OSI 참조 모델에서는 동일 계층 간에 교환되는정보의 단위인 프로토콜 데이터 단위(PDU; Protocol Data Unit)를 이용해 정보를 주고 받는다. 다음은 OSI 7계층 중 일부 계층을 나열한 것이다. 괄호(①~④)에 들어갈 알맞은 프로토콜 데이터 단위(PDU) 쓰시오. \n ㆍ네트워크 계층 = ( ① )\nㆍ데이터 링크 계층 = ( ② )\nㆍ물리 계층 = ( ③ )\nㆍ전송 계층 = ( ④ )",
+    "answer": "물리 : 비트, 데이터링크 : 프레임, 네트워크:패킷, 전송:세그먼트"
+  },
+  {
+    "question": "오류 제어 기능은 데이터 전송 시 감쇠, 왜곡, 잡음에 의해 생성된 오류를 검출하거나 수정하는 기능으로, 데이터 전송의 신뢰성을 위해 반드시 필요한 기능이다. 다음이 설명하고 있는 오류 제어 방식이 무엇인지 쓰시오. \n데이터 전송 과정에서 발생한 오류를 검출하여, 검출된 오류를 재전송 요구 없이 스스로 수정하는 방식이다.\nㆍ송신 측에서는 문자나 프레임에 오류 검출을 위한 부가 정보를 추가시켜 전송하고, 수신 측에서는 이러한 부가 정보를 이용하여 자신이 수신한 데이터에 존재하는 오류를 발견하고 수정한다.\nㆍ재전송 요구가 없기 때문에 역 채널이 필요 없고, 연속적인 데이터 흐름이 가능하다.\nㆍ데이터 비트 이외에 오류 검출 및 수정을 위한 비트(잉여 비트)들이 추가로 전송되어야 하기 때문에 전송 효율이 떨어진다.\nㆍ오류의 검출과 수정을 위한 방식에는 해밍 코드 방식과 상승 코드 방식이 있다.",
+    "answer": ""
+  },
+  {
+    "question": "ㆍ갱신문은 기본 테이블에 있는 튜플들 중에서 특정 튜플의 내용을 변경할 때 사용한다.\nㆍ갱신문을 사용하여 <회원> 테이블에서 ‘기부금’ 필드의 값이 1,000,000원에서 3,000,000원 사이인 회원들의 ‘등급’ 필드의 값을 “VIP”로 변경하시오.\n UPDATE 회원 ( ① ) 등급 = ‘VIP’ ( ② ) 기부금 BETWEEN 1000000 AND 3000000;",
+    "answer": ""
+  },
+  {
+    "question": "다음 C 언어로 구현된 프로그램을 분석하여 <예시 화면>과 같이 “string”, “test”를 차례로 입력했을 때 그 실행 결과로 <예시 화면>의 괄호(①, ②)에 해당하는 출력 결과를 쓰시오. \n#include <stdio.h>\n#include <stdlib.h>\n#include <string.h>\nint main()\n{\nchar str[100];\nchar *ptr;\nint cnt = 2;\nwhile(1)\n{\nprintf(\"입력: \");\nscanf(\"%s\", str);\nptr = (char*)malloc(strlen(str) + 1);\nstrcpy(ptr, str);\nprintf(\"%d번 출력: \", cnt);\nfor (int i = strlen(ptr) - 1; i >= 0; i--)\n{\nprintf(\"%c\", ptr[i]);\n}\nif (cnt<=1)\nbreak;\nelse\ncnt--;\nprintf(\"\\n\");\n}\nreturn 0;\n}",
+    "image" : "/QuizPeek/quiz/img/img_3.png",
+    "answer": ""
+  },
+  {
+    "question": "다음은 <예시 화면>과 같이 동물 전체 마리수와 동물 전체 다리 수를 입력받아 오리와 돼지가 각각 몇 마리인지를 출력하는 Java 프로그램이다. 프로그램을 분석하여 괄호(①, ②)에 들어갈 알맞은 변수명을쓰시오",
+    "image" : "/QuizPeek/quiz/img/img_4.png",
+    "answer": ""
+  },
+  {
+    "question": "다음 <처리조건>에 부합하도록 <SQL문-1>과 <SQL문-2>의 괄호(①~③)를 채워 SQL문을 완성하시오.",
+    "image" : "/QuizPeek/quiz/img/img_5.png",
+    "answer": ""
   }
 ]
