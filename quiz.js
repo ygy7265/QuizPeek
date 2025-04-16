@@ -1,4 +1,4 @@
-fetch('/quiz/semiPracticalQuizzes.json')
+fetch('../../quiz/semiPracticalQuizzes.json')
   .then(response => response.json())
   .then(data => {
     // Fisher-Yates 알고리즘으로 배열 셔플
