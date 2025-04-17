@@ -374,7 +374,7 @@
   },
   {
     "question": "학생(STUDENT) 테이블에 전기과 학생이 50명, 전산과 학생이 100명, 전자과 학생이 50명 있다고할 때, 다음 SQL문 ①, ②, ③의 실행 결과로 표시되는 튜플의 수를 쓰시오. (단, DEPT 필드는 학과를 의미한다) (5점)",
-    "image": "/QuizPeek/quiz/img/img_22.png",
+    "image": "/QuizPeek/quiz/img/img_32.png",
     "answer": "1: 200, 2: 3, 3: 1"
   },
   {
@@ -414,5 +414,695 @@
   {
     "question": "단위 테스트에서 테스트의 대상이 되는 하위 모듈을 호출하고, 매개 변수(Parameter)를 전달하는가상의 모듈로, 상향식 테스트에서 사용되는 것은 무엇인지 쓰시오.",
     "answer": "드라이버"
+  },
+  {
+    "question": "( 1 )란 데이터베이스에서 데이터를 체계적으로 정리하는 과정으로, 데이터 ( 2 )을 최소화하고 ( 3 )을 방지하며, ( 4)을 유지하는 것을 목표로 합니다.",
+    "answer": "1: 정규화, 2: 중복, 3: 이상 ,4: 무결성 "
+  },
+  {
+    "question": "데이터의 정확성과 일관성을 유지하는 것을 의미합니다. 즉, 데이터베이스에 저장된 값이 항상 올바르고 신뢰할 수 있도록 보장하는 규칙을 말합니다. ( 1 )은 기본 키, 참조 관계, 도메인 제한 등과 관련된 여러 규칙을 포함하며, 크게 ( 2 ), ( 3 ), ( 4 ) 으로 나눌 수 있습니다.",
+    "answer": "1: 정규화, 2: 개체 무결성, 3: 참조 무결성 ,4: 도메인 무결성"
+  },
+  {
+    "question": "모든 속성의 값이 원자값(Atomic Value)을 가져야 하는 정규형은 ?",
+    "answer": "제 1 정규형"
+  },
+  {
+    "question": "칼럼에 여러 개의 값(펜, 공책 / 마우스, 키보드)이 포함되어 있으면 어떤 정규형을 위반한 것인가 ?",
+    "answer": "제 1 정규형"
+  },
+  {
+    "question": "( 1 ) :기본 키가 복합 키일 경우, 기본 키의 일부만으로 값을 결정할 수 있는 속성이 있으면 종속, 이 종속을 제거하는 정규형은 ? ( 2 ) ",
+    "answer": "1: 부분 함수 종속제거, 2: 제 2 정규형"
+  },
+  {
+    "question": "다음의 그림에서 만족하는 정규형은 ?",
+    "image": "/QuizPeek/quiz/img/img_30.png",
+    "answer": "제 2 정규형"
+  },
+  {
+    "question": "( 1 ) : 기본키가 아닌 속성이 다른 비키 속성을 통해 기본키에 종속되면 안 됩니다. A → B, B → C가 있을 때, A → C로 이어지는 종속 관계를 제거합니다. 이 종속을 제거하는 정규형은 ? (2) ",
+    "answer": "1: 이행적 함수 종속을 제거, 2: 제 3 정규형"
+  },
+  {
+    "question": " 모든 결정자가 후보키여야 하는 정규형은 ?",
+    "answer": "BCNF"
+  },
+  {
+    "question": "아래의 그림에서 위반하는 정규형 ( 1 ), 만족하는 정규형은 ? ( 2 )",
+    "image": "/QuizPeek/quiz/img/img_31.png",
+    "answer": "1. BCNF, 2: 제 3 정규화"
+  },
+  {
+    "question": "( 1 ) 를 만족하고,( 2 ) : 테이블을 분리했을 때 다시 조인할 수 없는 경우를 방지하는 종속 을 제거하는 정규형은 ? ( 3 )",
+    "answer": "1: BCNF, 2: 다치종속, 3: 제 4 정규형"
+  },
+  {
+    "question": "( 1 ) : 한 속성의 값이 여러 값과 연관되는 경우 종속, 을 제거하는 정규형은 ? ( 2 )",
+    "answer": "1: 조인 종속성, 2: 제 5 정규형"
+  },
+  {
+    "question": "( 1 ) 를 만족하고,( 2 ) : 한 속성의 값이 여러 값과 연관되는 경우 종속, 을 제거하는 정규형은 ? ( 3 )",
+    "answer": "1: BCNF, 2: 다치종속, 3: 제 4 정규형"
+  },
+  {
+    "question": "( 1 ) 를 만족하고,( 2 ) : 한 속성의 값이 여러 값과 연관되는 경우 종속, 을 제거하는 정규형은 ? ( 3 )",
+    "answer": "1: BCNF, 2: 다치종속, 3: 제 4 정규형"
+  },
+  {
+    "question": "( 1 ) 를 만족하고,( 2 ) : 한 속성의 값이 여러 값과 연관되는 경우 종속, 을 제거하는 정규형은 ? ( 3 )",
+    "answer": "1: BCNF, 2: 다치종속, 3: 제 4 정규형"
+  },
+  {
+    "question": "네트워크에서 하나의 송신자가 하나의 수신자에게만 데이터를 전송하는 방식을 무엇이라고 하는가?",
+    "answer": "유니캐스트"
+  },
+  {
+    "question": "지정된 하나의 대상에게만 데이터를 전송하는 방식으로 유니캐스트와 유사하게 쓰이는 용어는?",
+    "answer": "단일캐스트"
+  },
+  {
+    "question": "하나의 송신자가 같은 네트워크에 있는 모든 수신자에게 데이터를 전송하는 방식을 무엇이라고 하는가?",
+    "answer": "브로드캐스트"
+  },
+  {
+    "question": "복수의 전송 방식을 혼합하거나 유연하게 선택하는 전송 형태를 무엇이라고 하는가?",
+    "answer": "복합캐스트"
+  },
+  {
+    "question": "송신자가 여러 수신자 중 가장 가까운 수신자에게 데이터를 전송하는 방식은?",
+    "answer": "애니캐스트"
+  },
+  {
+    "question": "한 명의 송신자가 동일한 데이터를 여러 명의 특정 수신자에게 동시에 전송하는 방식을 무엇이라고 하는가?",
+    "answer": "멀티캐스트"
+  },
+  {
+    "question": "데이터의 전송을 위한 전기적, 기계적, 기능적 절차를 정의하는 계층은?",
+    "answer": "물리 계층"
+  },
+  {
+    "question": "노드 간의 데이터 전송을 위한 프레임 생성, 흐름 제어, 오류 제어 등을 담당하는 계층은?",
+    "answer": "데이터 링크 계층"
+  },
+  {
+    "question": "데이터가 목적지까지 가장 효율적으로 전달되도록 경로 설정과 논리 주소(IP)를 처리하는 계층은?",
+    "answer": "네트워크 계층"
+  },
+  {
+    "question": "종단 간(End-to-End) 신뢰성 있는 데이터 전송과 흐름 제어, 오류 복구를 담당하는 계층은?",
+    "answer": "전송 계층"
+  },
+  {
+    "question": "이질적인 시스템 간의 데이터 형식 차이를 해결하고, 데이터 압축 및 암호화를 담당하는 계층은?",
+    "answer": "세션 계층"
+  },
+  {
+    "question": "사용자와 응용 프로그램 간의 인터페이스를 제공하며, 이메일이나 파일 전송 등의 서비스를 제공하는 계층은?",
+    "answer": "응용 계층"
+  },
+  {
+    "question": "서로 다른 시스템 간 통신을 위한 대화 제어, 동기화 등을 담당하는 계층은?",
+    "answer": "표현 계층"
+  },
+  {
+    "question": "개별 모듈에 대해 수행하는 테스트로, 모듈 내부의 논리나 기능이 올바르게 동작하는지를 검증하는 테스트는?",
+    "answer": "단위 테스트"
+  },
+  {
+    "question": "여러 모듈을 통합하여 상호 작용을 검증하는 테스트는?",
+    "answer": "통합 테스트"
+  },
+  {
+    "question": "전체 시스템이 요구 사항에 맞게 동작하는지를 확인하기 위한 테스트는?",
+    "answer": "시스템 테스트"
+  },
+  {
+    "question": "기존 기능이 새로운 변경 사항에 의해 영향을 받지 않는지 확인하는 테스트는?",
+    "answer": "회귀 테스트"
+  },
+  {
+    "question": "실제 사용자 환경과 유사한 조건에서 수행하는 테스트로, 사용자의 입장에서 기능을 검증하는 테스트는?",
+    "answer": "인수 테스트"
+  },
+  {
+    "question": "소프트웨어가 과도한 부하 상황에서도 정상적으로 동작하는지를 확인하는 테스트는?",
+    "answer": "부하 테스트"
+  },
+  {
+    "question": "비정상적인 상황이나 오류 조건에서 소프트웨어의 안정성을 확인하는 테스트는?",
+    "answer": "강도 테스트"
+  },
+  {
+    "question": "프로그램의 내부 로직과 구조를 이해하고 테스트 케이스를 설계하는 방법은?",
+    "answer": "화이트박스 테스트"
+  },
+  {
+    "question": "입력과 출력 간의 관계를 중심으로 기능을 검증하는 테스트 방법은?",
+    "answer": "블랙박스 테스트"
+  },
+  {
+    "question": "화이트박스 테스트 기법 중, 모든 조건이 true와 false를 한번씩 수행되도록 하는 테스트 기법은?",
+    "answer": "조건 커버리지"
+  },
+  {
+    "question": "화이트박스 테스트 기법 중, 모든 분기문이 적어도 한번은 참과 거짓이 되도록 수행하는 기법은?",
+    "answer": "분기 커버리지"
+  },
+  {
+    "question": "블랙박스 테스트 기법 중, 유사한 입력값을 동일한 그룹으로 나누어 대표값만 테스트하는 방법은?",
+    "answer": "동등분할 테스트"
+  },
+  {
+    "question": "블랙박스 테스트 기법 중, 입력값의 경계값을 중심으로 오류가 발생할 가능성이 높다고 판단하여 테스트하는 기법은?",
+    "answer": "경계값 분석 테스트"
+  },
+  {
+    "question": "블랙박스 테스트 기법 중, 입력 조건과 출력 결과 간의 논리적 관계를 테이블 형태로 정리하여 테스트하는 기법은?",
+    "answer": "결정 테이블 테스트"
+  },
+  {
+    "question": "블랙박스 테스트 기법 중, 이벤트의 발생 순서나 조건을 상태와 전이로 모델링하여 테스트하는 기법은?",
+    "answer": "상태 전이 테스트"
+  },
+  {
+    "question": "모듈 간의 통합을 제어 모듈에서 시작하여 아래 방향으로 진행하는 통합 테스트 방식은?",
+    "answer": "하향식 통합 테스트"
+  },
+  {
+    "question": "모듈 간의 통합을 가장 아래 수준의 모듈부터 상위 방향으로 진행하는 통합 테스트 방식은?",
+    "answer": "상향식 통합 테스트"
+  },
+  {
+    "question": "하향식 통합 테스트에서 실제 하위 모듈이 준비되지 않았을 경우 사용하는 대체 모듈은?",
+    "answer": "스텁(Stub)"
+  },
+  {
+    "question": "상향식 통합 테스트에서 실제 상위 모듈이 준비되지 않았을 경우 사용하는 대체 모듈은?",
+    "answer": "드라이버(Driver)"
+  },
+  {
+    "question": "상위 모듈부터 점차 하위 모듈을 통합하며 테스트하고 주요 제어 모듈을 조기 검증할 수 있는 테스트 방식은?",
+    "answer": "하향식 통합 테스트"
+  },
+  {
+    "question": "하위 모듈부터 통합하며 테스트하고 하위 모듈의 구현이 완료되면 바로 테스트 가능한 방식은?",
+    "answer": "상향식 통합 테스트"
+  },
+  {
+    "question": "웹 브라우저를 통해 웹 페이지에 접속할 때 기본적으로 사용하는 HTTP 프로토콜의 포트 번호는?",
+    "answer": "80"
+  },
+  {
+    "question": "HTTPS 프로토콜이 사용하는 기본 포트 번호는?",
+    "answer": "443"
+  },
+  {
+    "question": "파일 전송을 위한 FTP 서비스가 명령어 전송에 사용하는 포트 번호는?",
+    "answer": "21"
+  },
+  {
+    "question": "이메일 송신에 사용되는 SMTP 프로토콜의 기본 포트 번호는?",
+    "answer": "25"
+  },
+  {
+    "question": "POP3 프로토콜이 사용하는 기본 포트 번호는?",
+    "answer": "110"
+  },
+  {
+    "question": "IMAP 프로토콜이 사용하는 기본 포트 번호는?",
+    "answer": "143"
+  },
+  {
+    "question": "Telnet 서비스가 사용하는 기본 포트 번호는?",
+    "answer": "23"
+  },
+  {
+    "question": "도메인 이름을 IP 주소로 변환하는 DNS가 사용하는 포트 번호는?",
+    "answer": "53"
+  },
+  {
+    "question": "FTP가 데이터 전송에 사용하는 포트 번호는?",
+    "answer": "20"
+  },
+  {
+    "question": "SSH(Secure Shell) 프로토콜이 사용하는 기본 포트 번호는?",
+    "answer": "22"
+  },
+  {
+    "question": "전송 계층에서 신뢰성 있는 연결 지향형 통신을 제공하며, 흐름 제어와 혼잡 제어 기능을 지원하는 프로토콜은?",
+    "answer": "TCP"
+  },
+  {
+    "question": "데이터그램 방식의 비연결형 통신을 제공하며, 실시간성이 중요한 서비스에서 사용되는 프로토콜은?",
+    "answer": "UDP"
+  },
+  {
+    "question": "IP 주소를 MAC 주소로 변환해주는 프로토콜은?",
+    "answer": "ARP"
+  },
+  {
+    "question": "네트워크 상의 호스트 간에 IP 패킷을 전송하기 위한 비연결형 프로토콜로, 주소 지정 및 경로 설정 기능을 제공하는 것은?",
+    "answer": "IP"
+  },
+  {
+    "question": "네트워크 계층에서 패킷의 경로를 결정하고 전달하는 데 사용되는 프로토콜은?",
+    "answer": "ICMP"
+  },
+  {
+    "question": "TCP/IP 4계층 중 애플리케이션 계층에 해당하며, 웹 서비스 제공에 사용되는 프로토콜은?",
+    "answer": "HTTP"
+  },
+  {
+    "question": "이메일 수신을 위해 사용되며, 서버에서 메일을 가져오는 데 사용되는 프로토콜은?",
+    "answer": "POP3"
+  },
+  {
+    "question": "도메인 이름을 IP 주소로 변환해주는 서비스 또는 프로토콜은?",
+    "answer": "DNS"
+  },
+  {
+    "question": "파일 전송을 위한 프로토콜로, TCP를 기반으로 하며 파일의 업로드 및 다운로드를 지원하는 것은?",
+    "answer": "FTP"
+  },
+  {
+    "question": "ㆍTCP/IP의 네트워크 관리 프로토콜로, 라우터나 허브 등 네트워크 기기의 네트워크 정보를 네트워크 관리 시스템에 보내는데 사용된다.\nㆍ이 프로토콜을 사용하는 대표적인 장비에는 프린터, UPS, CCTV 등이 있다.\nㆍ에이전트(Agent)는 161번 포트를 사용하고, 관리 시스템(Manager)은 162번 포트를 사용한다.\n이 프로토콜의 명칭은?",
+    "answer": "SNMP"
+  },
+  {
+    "question": "네트워크 관리 시스템에서 장비 상태를 수집하고 제어하는 데 사용되는 프로토콜로, 에이전트가 사용하는 포트 번호는?",
+    "answer": "161"
+  },
+  {
+    "question": "SNMP 프로토콜에서 네트워크 관리 시스템(Manager)이 이벤트를 수신하기 위해 사용하는 포트 번호는?",
+    "answer": "162"
+  },
+  {
+    "question": "SNMP에서 실제 네트워크 장비에 설치되어 정보를 제공하는 구성 요소는?",
+    "answer": "에이전트 (Agent)"
+  },
+  {
+    "question": "SNMP에서 네트워크 장비 상태를 수집하고 명령을 전달하는 중앙 시스템을 무엇이라 하는가?",
+    "answer": "관리 시스템 (Manager)"
+  },
+  {
+    "question": "SNMP 프로토콜을 사용하는 네트워크 장비 예시로 올바르지 않은 것은?\n1. 프린터\n2. CCTV\n3. 스마트폰\n4. UPS",
+    "answer": "3"
+  },
+  {
+    "question": "IP 주소(IPv4)는 인터넷에 연결된 모든 컴퓨터 자원을 구분하기 위한 주소로, 8비트씩 4부분, 총 32비트로 구성된다. 또한 IP 주소는 네트워크 부분의 길이에 따라 A 클래스에서 E 클래스까지 5개의 클래스로 구분한다.\n네트워크 부분의 길이가 16비트이며, 128~191로 시작하고 나머지 16비트가 호스트 부분인 클래스는 무엇인가?",
+    "answer": "B 클래스"
+  },
+  {
+    "question": "IPv4 주소는 총 몇 비트로 구성되는가?",
+    "answer": "32비트"
+  },
+  {
+    "question": "IP 클래스 중 1.0.0.0 ~ 126.255.255.255 범위에 해당하며, 대형 네트워크에 사용되는 클래스는?",
+    "answer": "A 클래스"
+  },
+  {
+    "question": "IP 클래스 중 멀티캐스트(Multicast) 용도로 사용되는 클래스는?",
+    "answer": "D 클래스"
+  },
+  {
+    "question": "IP 클래스 중 실험적 용도로 예약되어 있으며, 일반적으로 사용되지 않는 클래스는?",
+    "answer": "E 클래스"
+  },
+  {
+    "question": "IP 주소 192.168.0.1 은 어떤 클래스에 속하는가?",
+    "answer": "C 클래스"
+  },
+  {
+    "question": "IPv4 주소에서 C 클래스 주소의 기본 서브넷 마스크는?",
+    "answer": "255.255.255.0"
+  },
+  {
+    "question": "다음 중 사설 IP 주소에 해당하지 않는 것은?\n1. 192.168.1.1\n2. 10.0.0.1\n3. 172.16.0.1\n4. 8.8.8.8",
+    "answer": "4"
+  },
+  {
+    "question": "데이터의 중복을 최소화하고 무결성을 보장하며 일관성을 유지하기 위해 데이터를 구조적으로 저장한 집합체를 무엇이라고 하는가?",
+    "answer": "데이터베이스 (Database)"
+  },
+  {
+    "question": "데이터베이스를 정의하고, 조작하며, 제어하기 위해 사용자 또는 응용 프로그램과 데이터베이스 사이의 인터페이스 역할을 하는 소프트웨어 시스템은 무엇인가?",
+    "answer": "데이터베이스 관리 시스템 (DBMS, Database Management System)"
+  },
+  {
+    "question": "관계형 데이터베이스 모델에서 데이터를 행(Row)과 열(Column)의 2차원 테이블 형태로 표현하는 기본 단위를 무엇이라고 하는가?",
+    "answer": "릴레이션 (Relation) 또는 테이블 (Table)"
+  },
+  {
+    "question": "관계형 모델에서 릴레이션의 행(Row)에 해당하는 것으로, 속성 값들의 집합으로 구성된 단일 레코드를 무엇이라고 하는가?",
+    "answer": "튜플 (Tuple)"
+  },
+  {
+    "question": "관계형 모델에서 릴레이션의 열(Column)에 해당하는 것으로, 데이터 항목 또는 데이터 필드를 의미하는 것은 무엇인가?",
+    "answer": "애트리뷰트 (Attribute)"
+  },
+  {
+    "question": "릴레이션 내의 튜플들을 유일하게 식별할 수 있는 최소한의 애트리뷰트 집합을 무엇이라고 하는가?",
+    "answer": "후보 키 (Candidate Key)"
+  },
+  {
+    "question": "후보 키 중에서 튜플을 식별하기 위해 기본적으로 사용하도록 선택된 키를 무엇이라고 하는가?",
+    "answer": "기본 키 (Primary Key)"
+  },
+  {
+    "question": "한 릴레이션의 특정 애트리뷰트 값이 다른 릴레이션의 기본 키 값을 참조하는 경우, 이 애트리뷰트 또는 애트리뷰트 집합을 무엇이라고 하는가?",
+    "answer": "외래 키 (Foreign Key)"
+  },
+  {
+    "question": "현실 세계의 객체나 개념을 표현하며, 독립적으로 존재하거나 식별될 수 있는 것을 데이터 모델링에서 무엇이라고 하는가?",
+    "answer": "개체 (Entity)"
+  },
+  {
+    "question": "데이터베이스 설계를 위해 개체(Entity), 속성(Attribute), 관계(Relationship)를 시각적으로 표현하는 모델은 무엇인가?",
+    "answer": "개체-관계 모델 (ER Model, Entity-Relationship Model)"
+  },
+  {
+    "question": "SQL(Structured Query Language)에서 테이블 생성(CREATE), 변경(ALTER), 삭제(DROP) 등 데이터 구조를 정의하는 언어를 무엇이라고 하는가?",
+    "answer": "데이터 정의어 (DDL, Data Definition Language)"
+  },
+  {
+    "question": "SQL에서 데이터 검색(SELECT), 삽입(INSERT), 수정(UPDATE), 삭제(DELETE) 등 데이터를 조작하는 언어를 무엇이라고 하는가?",
+    "answer": "데이터 조작어 (DML, Data Manipulation Language)"
+  },
+  {
+    "question": "데이터베이스 트랜잭션이 안전하게 수행되기 위해 갖추어야 할 4가지 성질(원자성, 일관성, 고립성, 지속성)을 무엇이라고 하는가?",
+    "answer": "ACID"
+  },
+  {
+    "question": "트랜잭션의 연산이 데이터베이스에 모두 반영되든지 아니면 전혀 반영되지 않아야 한다는 ACID의 성질은 무엇인가?",
+    "answer": "원자성 (Atomicity)"
+  },
+  {
+    "question": "여러 트랜잭션이 동시에 실행될 때, 각 트랜잭션은 다른 트랜잭션의 연산 작업에 끼어들 수 없으며 독립적으로 실행되어야 한다는 ACID의 성질은 무엇인가?",
+    "answer": "고립성 (Isolation) 또는 격리성"
+  },
+  {
+    "question": "기본 키의 값은 NULL일 수 없으며, 릴레이션 내에서 유일해야 한다는 데이터 무결성 제약 조건은 무엇인가?",
+    "answer": "개체 무결성 (Entity Integrity)"
+  },
+  {
+    "question": "관계형 데이터베이스 모델에서 하나의 레코드(record) 또는 행(row)을 나타내는 용어는 무엇인가?",
+    "answer": "튜플 (Tuple)"
+  },
+  {
+    "question": "관계형 데이터베이스 모델에서 데이터 항목 또는 필드(field)에 해당하는 열(column)을 나타내는 용어는 무엇인가?",
+    "answer": "애트리뷰트 (Attribute)"
+  },
+  {
+    "question": "어떤 릴레이션(테이블)이 5개의 애트리뷰트와 100개의 튜플로 구성되어 있을 때, 이 릴레이션의 차수(Degree)는 얼마인가?",
+    "answer": "5"
+  },
+  {
+    "question": "어떤 릴레이션(테이블)이 3개의 애트리뷰트와 50개의 튜플로 구성되어 있을 때, 이 릴레이션의 카디널리티(Cardinality)는 얼마인가?",
+    "answer": "50"
+  },
+  {
+    "question": "다음 <학생> 테이블에서 ('2023002', '박지민', '경영학과', 3)은 무엇을 나타내는가?\n<학생>\n| 학번 | 이름 | 학과 | 학년 |\n|---|---|---|---|\n| 2023001 | 김남준 | 컴퓨터공학과 | 4 |\n| 2023002 | 박지민 | 경영학과 | 3 |\n| 2023003 | 전정국 | 전자공학과 | 3 |",
+    "answer": "튜플 (Tuple)"
+  },
+  {
+    "question": "위 <학생> 테이블에서 '학과'는 무엇을 나타내는가? \n<학생>\n| 학번 | 이름 | 학과 | 학년 |\n|---|---|---|---|\n| 2023001 | 김남준 | 컴퓨터공학과 | 4 |\n| 2023002 | 박지민 | 경영학과 | 3 |\n| 2023003 | 전정국 | 전자공학과 | 3 |",
+    "answer": "애트리뷰트 (Attribute)"
+  },
+  {
+    "question": "위 <학생> 테이블의 차수(Degree)는 얼마인가? \n\n<학생>\n| 학번 | 이름 | 학과 | 학년 |\n|---|---|---|---|\n| 2023001 | 김남준 | 컴퓨터공학과 | 4 |\n| 2023002 | 박지민 | 경영학과 | 3 |\n| 2023003 | 전정국 | 전자공학과 | 3 |",
+    "answer": "4"
+  },
+  {
+    "question": "위 <학생> 테이블의 카디널리티(Cardinality)는 얼마인가? \n다음 <학생> 테이블에서 ('2023002', '박지민', '경영학과', 3)은 무엇을 나타내는가?\n<학생>\n| 학번 | 이름 | 학과 | 학년 |\n|---|---|---|---|\n| 2023001 | 김남준 | 컴퓨터공학과 | 4 |\n| 2023002 | 박지민 | 경영학과 | 3 |\n| 2023003 | 전정국 | 전자공학과 | 3 |",
+    "answer": "3"
+  },
+  {
+    "question": "릴레이션 내에서 모든 튜플은 서로 구별되어야 한다. 즉, 동일한 튜플이 중복되어 존재할 수 없다는 특징을 무엇이라고 하는가?",
+    "answer": "튜플의 유일성 (Uniqueness of Tuples)"
+  },
+  {
+    "question": "하나의 애트리뷰트가 가질 수 있는 값들의 집합을 무엇이라고 하는가?",
+    "answer": "도메인 (Domain)"
+  },
+  {
+    "question": "'성별' 애트리뷰트의 도메인이 {'남', '여'}로 정의되었을 때, 이 애트리뷰트에 'Male' 값을 저장할 수 있는가?",
+    "answer": "아니오 (도메인 제약 조건 위배)"
+  },
+  {
+    "question": "튜플 내에서 애트리뷰트들의 순서는 중요한가?",
+    "answer": "중요하다 (스키마에 정의된 순서가 있음)"
+  },
+  {
+    "question": "릴레이션 내에서 튜플들의 순서는 중요한가?",
+    "answer": "중요하지 않다 (튜플은 집합의 원소로 간주)"
+  },
+  {
+    "question": "릴레이션에서 튜플을 유일하게 식별하기 위해 사용되는 애트리뷰트 또는 애트리뷰트들의 집합을 무엇이라고 하는가?",
+    "answer": "키 (Key)"
+  },
+  {
+    "question": "기본 키(Primary Key)를 구성하는 애트리뷰트는 NULL 값을 가질 수 있는가?",
+    "answer": "아니오 (개체 무결성 제약조건)"
+  },
+  {
+    "question": "관계 대수 연산 중, 주어진 릴레이션에서 특정 조건을 만족하는 튜플들을 선택하는 연산은 무엇인가?",
+    "answer": "셀렉션 (Selection, σ)"
+  },
+  {
+    "question": "관계 대수 연산 중, 주어진 릴레이션에서 명시된 애트리뷰트들만 추출하여 새로운 릴레이션을 만드는 연산은 무엇인가?",
+    "answer": "프로젝션 (Projection, π)"
+  },
+  {
+    "question": "셀렉션(Selection) 연산을 수행하면 결과 릴레이션의 카디널리티는 원본 릴레이션보다 항상 (증가한다 / 같거나 감소한다 / 감소한다)?",
+    "answer": "같거나 감소한다"
+  },
+  {
+    "question": "프로젝션(Projection) 연산을 수행하면 결과 릴레이션의 차수(Degree)는 원본 릴레이션보다 항상 (증가한다 / 같거나 감소한다 / 감소한다)?",
+    "answer": "같거나 감소한다"
+  },
+  {
+    "question": "다음 <도서> 테이블에서 저자 애트리뷰트만 추출하는 프로젝션 연산(π 저자 (도서))의 결과 릴레이션의 카디널리티는 얼마인가? (단, 관계 대수에서는 중복을 제거함)\n<도서>\n| 도서번호 | 제목 | 저자 | 출판사 |\n|---|---|---|---|\n| B001 | 데이터베이스 | 김민수 | 한빛 |\n| B002 | 운영체제 | 박영희 | 생능 |\n| B003 | 자료구조 | 김민수 | 한빛 |\n| B004 | 네트워크 | 이철수 | 길벗 |",
+    "answer": "3 (김민수, 박영희, 이철수)"
+  },
+  {
+    "question": "다음 <학생> 테이블에서 '학년' 애트리뷰트가 가질 수 있는 모든 값의 집합을 무엇이라고 하는가?\n<학생>\n| 학번 | 이름 | 학과 | 학년 |\n|---|---|---|---|\n| 202001 | 김철수 | 컴퓨터 | 1 |\n| 202102 | 이영희 | 수학 | 2 |\n| 202003 | 박민수 | 컴퓨터 | 1 |\n| 202201 | 박선영 | 영어영문 | 3 |",
+    "answer": "도메인"
+  },
+  {
+    "question": "다음 <성적> 테이블의 '점수' 애트리뷰트의 도메인이 0부터 100까지의 정수라고 정의되었을 때, 다음 중 해당 도메인에 속하지 않는 값은 무엇인가?\n<성적>\n| 학번 | 과목코드 | 점수 |\n|---|---|---|\n| 201901 | DB101 | 95 |\n| 202002 | OS202 | 88 |\n| 201903 | DS301 | 105 |",
+    "answer": "105"
+  },
+  {
+    "question": "다음 <주문> 테이블에서 '배송상태' 애트리뷰트의 도메인은 {'대기중', '배송중', '배송완료', '취소'}로 정의될 수 있다. 이때, '배송상태' 애트리뷰트에 저장될 수 있는 값의 종류는 몇 가지인가?\n<주문>\n| 주문번호 | 상품명 | 고객ID | 배송상태 |\n|---|---|---|---|\n| O1 | 노트북 | user1 | 배송중 |\n| O2 | 마우스 | user2 | 배송완료 |\n| O3 | 키보드 | user1 | 배송중 |\n| O4 | 모니터 | user3 | 대기중 |",
+    "answer": "4"
+  },
+  {
+    "question": "employees 테이블에서 중복되지 않는 name만 조회하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nSELECT _____ name FROM employees;",
+    "answer": "DISTINCT"
+  },
+  {
+    "question": "customers 테이블에서 country가 'Korea'인 레코드를 조회하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nSELECT * FROM customers _____ country = 'Korea';",
+    "answer": "WHERE"
+  },
+  {
+    "question": "employees 테이블에 새로운 레코드를 추가하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nINSERT _____ employees (id, name, salary) VALUES (1, 'Kim', 3000);",
+    "answer": "INTO"
+  },
+  {
+    "question": "products 테이블에서 id가 10인 상품의 가격을 변경하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nUPDATE products SET price = 2000 _____ id = 10;",
+    "answer": "WHERE"
+  },
+  {
+    "question": "orders 테이블에서 order_id가 5인 레코드를 삭제하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nDELETE _____ orders WHERE order_id = 5;",
+    "answer": "FROM"
+  },
+  {
+    "question": "students 테이블을 새로 생성하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nCREATE _____ students (id INT, name VARCHAR(50));",
+    "answer": "TABLE"
+  },
+  {
+    "question": "students 테이블에 email 칼럼을 추가하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nALTER TABLE students _____ email VARCHAR(100);",
+    "answer": "ADD"
+  },
+  {
+    "question": "orders 테이블을 삭제하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nDROP _____ orders;",
+    "answer": "TABLE"
+  },
+  {
+    "question": "employees 테이블에서 가장 높은 급여를 가진 사람을 찾고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nSELECT MAX(salary) _____ employees;",
+    "answer": "FROM"
+  },
+  {
+    "question": "employees 테이블에서 부서별 평균 급여를 구하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nSELECT department, AVG(salary) FROM employees _____ department;",
+    "answer": "GROUP BY"
+  },
+  {
+    "question": "employees 테이블에서 salary 기준으로 내림차순 정렬하여 조회하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nSELECT * FROM employees ORDER BY salary _____;",
+    "answer": "DESC"
+  },
+  {
+    "question": "두 개 이상의 테이블을 조인하여 데이터를 조회하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nSELECT * FROM orders _____ customers ON orders.customer_id = customers.id;",
+    "answer": "JOIN"
+  },
+  {
+    "question": "employees 테이블에서 salary가 2000 이상인 사람만 조회하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nSELECT * FROM employees WHERE salary _____ 2000;",
+    "answer": ">="
+  },
+  {
+    "question": "이름에 'Kim'이 포함된 사람을 찾고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nSELECT * FROM users WHERE name _____ '%Kim%';",
+    "answer": "LIKE"
+  },
+  {
+    "question": "products 테이블에서 카테고리별 상품 수를 알고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nSELECT category, _____(*) FROM products GROUP BY category;",
+    "answer": "COUNT"
+  },
+  {
+    "question": "employees 테이블에서 급여가 가장 낮은 사람을 찾고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nSELECT MIN(salary) _____ employees;",
+    "answer": "FROM"
+  },
+  {
+    "question": "students 테이블에서 중복된 학번을 제거하고 조회하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nSELECT _____ student_id FROM students;",
+    "answer": "DISTINCT"
+  },
+  {
+    "question": "salary가 3000 이상이고 부서가 'IT'인 직원들을 조회하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nSELECT * FROM employees WHERE salary >= 3000 _____ department = 'IT';",
+    "answer": "AND"
+  },
+  {
+    "question": "특정 범위의 salary를 가진 직원만 조회하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nSELECT * FROM employees WHERE salary _____ 2000 AND 5000;",
+    "answer": "BETWEEN"
+  },
+  {
+    "question": "5개의 레코드만 조회하고자 한다. 다음 SQL문에서 빈칸에 들어갈 키워드는?\n\nSELECT * FROM employees _____ 5;",
+    "answer": "LIMIT"
+  },
+  {
+    "question": "( 1 )은(는) 소프트웨어 개발 중 팀원들이 모여 코드나 문서를 검토하는 과정으로, 주로 코드 오류나 설계 결함을 발견하기 위해 진행됩니다.",
+    "answer": "1: 워크스루"
+  },
+  {
+    "question": "( 1 )은(는) 소프트웨어 시스템에서 오류를 미리 예측하고 이를 방지하려는 활동으로, 주로 경험적 데이터를 기반으로 오류 발생 가능성을 평가하는 기법입니다.",
+    "answer": "1: 오류 예측"
+  },
+  {
+    "question": "다음 파이썬 코드의 실행 결과는 무엇인가요?\n```python\nx = [1, 2, 3]\nfor i in range(len(x)):\n    print(x[i])\n```",
+    "answer": "1\n2\n3"
+  },
+  {
+    "question": "다음 파이썬 코드의 실행 결과는 무엇인가요?\n```python\nx = [1, 2, 3]\nprint(x[1:])\n```",
+    "answer": "[2, 3]"
+  },
+  {
+    "question": "다음 파이썬 코드의 실행 결과는 무엇인가요?\n```python\nx = [1, 2, 3]\nx.append(4)\nprint(x)\n```",
+    "answer": "[1, 2, 3, 4]"
+  },
+  {
+    "question": "다음 파이썬 코드의 실행 결과는 무엇인가요?\n```python\nx = {1, 2, 3}\nprint(2 in x)\n```",
+    "answer": "True"
+  },
+  {
+    "question": "다음 파이썬 코드의 실행 결과는 무엇인가요?\n```python\nx = [1, 2, 3]\nprint(x[-1])\n```",
+    "answer": "3"
+  },
+  {
+    "question": "다음 파이썬 코드의 실행 결과는 무엇인가요?\n```python\ndef foo(a, b):\n    return a + b\nprint(foo(2, 3))\n```",
+    "answer": "5"
+  },
+  {
+    "question": "다음 파이썬 코드의 실행 결과는 무엇인가요?\n```python\nx = [1, 2, 3, 4]\nfor i in x:\n    if i % 2 == 0:\n        print(i)\n```",
+    "answer": "2\n4"
+  },
+  {
+    "question": "다음 파이썬 코드의 실행 결과는 무엇인가요?\n```python\nx = [1, 2, 3]\ny = x\ny[0] = 10\nprint(x)\n```",
+    "answer": "[10, 2, 3]"
+  },
+  {
+    "question": "다음 파이썬 코드의 실행 결과는 무엇인가요?\n```python\nx = {'a': 1, 'b': 2}\nprint(x.get('b'))\n```",
+    "answer": "2"
+  },
+  {
+    "question": "다음 파이썬 코드의 실행 결과는 무엇인가요?\n```python\nx = 'hello'\ny = x.upper()\nprint(y)\n```",
+    "answer": "HELLO"
+  },
+  {
+    "question": "다음 C 코드의 실행 결과는 무엇인가요?\n```c\n#include <stdio.h>\nint main() {\n    int a = 10, b = 20;\n    printf(\"%d\", a > b ? a : b);\n    return 0;\n}```",
+    "answer": "20"
+  },
+  {
+    "question": "다음 C 코드의 실행 결과는 무엇인가요?\n```c\n#include <stdio.h>\nint main() {\n    int arr[] = {1, 2, 3, 4, 5};\n    printf(\"%d\", arr[2] + arr[3]);\n    return 0;\n}```",
+    "answer": "7"
+  },
+  {
+    "question": "다음 C 코드의 실행 결과는 무엇인가요?\n```c\n#include <stdio.h>\nint main() {\n    int x = 0, y = 5;\n    printf(\"%d\", x == 0 && y == 5);\n    return 0;\n}```",
+    "answer": "1"
+  },
+  {
+    "question": "다음 C 코드의 실행 결과는 무엇인가요?\n```c\n#include <stdio.h>\nint main() {\n    int x = 5;\n    while (x > 0) {\n        printf(\"%d \", x--);\n    }\n    return 0;\n}```",
+    "answer": "5 4 3 2 1"
+  },
+  {
+    "question": "다음 C 코드의 실행 결과는 무엇인가요?\n```c\n#include <stdio.h>\nint main() {\n    int x = 7;\n    switch(x) {\n        case 1:\n            printf(\"One\");\n            break;\n        case 7:\n            printf(\"Seven\");\n            break;\n        default:\n            printf(\"Other\");\n    }\n    return 0;\n}```",
+    "answer": "Seven"
+  },
+  {
+    "question": "다음 C 코드의 실행 결과는 무엇인가요?\n```c\n#include <stdio.h>\nint main() {\n    char str[] = \"C Language\";\n    printf(\"%d\", strlen(str));\n    return 0;\n}```",
+    "answer": "12"
+  },
+  {
+    "question": "다음 C 코드의 실행 결과는 무엇인가요?\n```c\n#include <stdio.h>\nint main() {\n    int a = 6, b = 3;\n    printf(\"%d\", a / b);\n    return 0;\n}```",
+    "answer": "2"
+  },
+  {
+    "question": "다음 C 코드의 실행 결과는 무엇인가요?\n```c\n#include <stdio.h>\nint main() {\n    int a = 9, b = 2;\n    printf(\"%d\", a % b);\n    return 0;\n}```",
+    "answer": "1"
+  },
+  {
+    "question": "다음 C 코드의 실행 결과는 무엇인가요?\n```c\n#include <stdio.h>\nint main() {\n    int a = 5, b = 5;\n    if (a == b) {\n        printf(\"Equal\");\n    } else {\n        printf(\"Not Equal\");\n    }\n    return 0;\n}```",
+    "answer": "Equal"
+  },
+  {
+    "question": "다음 C 코드의 실행 결과는 무엇인가요?\n```c\n#include <stdio.h>\nint main() {\n    char name[] = \"John\";\n    if (strcmp(name, \"john\") == 0) {\n        printf(\"Equal\");\n    } else {\n        printf(\"Not Equal\");\n    }\n    return 0;\n}```",
+    "answer": "Not Equal"
+  },
+  {
+    "question": "다음 Java 코드의 실행 결과는 무엇인가요?\n```java\npublic class Main {\n    public static void main(String[] args) {\n        int a = 10, b = 20;\n        System.out.println(a > b ? a : b);\n    }\n}```",
+    "answer": "20"
+  },
+  {
+    "question": "다음 Java 코드의 실행 결과는 무엇인가요?\n```java\npublic class Main {\n    public static void main(String[] args) {\n        int[] arr = {1, 2, 3, 4, 5};\n        System.out.println(arr[2] + arr[3]);\n    }\n}```",
+    "answer": "7"
+  },
+  {
+    "question": "다음 Java 코드의 실행 결과는 무엇인가요?\n```java\npublic class Main {\n    public static void main(String[] args) {\n        int x = 0, y = 5;\n        System.out.println(x == 0 && y == 5);\n    }\n}```",
+    "answer": "true"
+  },
+  {
+    "question": "다음 Java 코드의 실행 결과는 무엇인가요?\n```java\npublic class Main {\n    public static void main(String[] args) {\n        int x = 5;\n        while (x > 0) {\n            System.out.print(x-- + \" \");\n        }\n    }\n}```",
+    "answer": "5 4 3 2 1"
+  },
+  {
+    "question": "다음 Java 코드의 실행 결과는 무엇인가요?\n```java\npublic class Main {\n    public static void main(String[] args) {\n        int x = 7;\n        switch(x) {\n            case 1:\n                System.out.println(\"One\");\n                break;\n            case 7:\n                System.out.println(\"Seven\");\n                break;\n            default:\n                System.out.println(\"Other\");\n        }\n    }\n}```",
+    "answer": "Seven"
+  },
+  {
+    "question": "다음 Java 코드의 실행 결과는 무엇인가요?\n```java\npublic class Main {\n    public static void main(String[] args) {\n        String str = \"Java\";\n        System.out.println(str.length());\n    }\n}```",
+    "answer": "4"
+  },
+  {
+    "question": "다음 Java 코드의 실행 결과는 무엇인가요?\n```java\npublic class Main {\n    public static void main(String[] args) {\n        int a = 6, b = 3;\n        System.out.println(a / b);\n    }\n}```",
+    "answer": "2"
+  },
+  {
+    "question": "다음 Java 코드의 실행 결과는 무엇인가요?\n```java\npublic class Main {\n    public static void main(String[] args) {\n        int a = 9, b = 2;\n        System.out.println(a % b);\n    }\n}```",
+    "answer": "1"
+  },
+  {
+    "question": "다음 Java 코드의 실행 결과는 무엇인가요?\n```java\npublic class Main {\n    public static void main(String[] args) {\n        int a = 5, b = 5;\n        if (a == b) {\n            System.out.println(\"Equal\");\n        } else {\n            System.out.println(\"Not Equal\");\n        }\n    }\n}```",
+    "answer": "Equal"
+  },
+  {
+    "question": "다음 Java 코드의 실행 결과는 무엇인가요?\n```java\npublic class Main {\n    public static void main(String[] args) {\n        String name = \"John\";\n        System.out.println(name.equals(\"john\"));\n    }\n}```",
+    "answer": "false"
   }
 ]
