@@ -1,4 +1,4 @@
-fetch('/QuizPeek/quiz/semiPracticalQuizzes.json')
+fetch('/QuizPeek/quiz/semiPracticalQuizzesPlus.json')
   .then(response => response.json())
   .then(data => {
     const container = document.getElementById('quiz-container');
