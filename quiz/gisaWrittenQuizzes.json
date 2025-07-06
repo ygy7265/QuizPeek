@@ -1,0 +1,659 @@
+[
+  {
+    "question": "다음 중 폭포수 모델에 대한 설명으로 틀린 것은 무엇인가?\n1. 각 단계는 순차적으로 진행된다\n2. 요구사항 변경이 쉬운 구조이다\n3. 유지보수 단계가 존재한다\n4. 설계 후 구현 단계로 넘어간다",
+    "answer": "2. 요구사항 변경이 쉬운 구조이다"
+  },
+  {
+    "question": "폭포수 모델의 특징으로 옳지 않은 것은?\n1. 이전 단계로의 회귀가 어렵다\n2. 단계별 산출물이 명확하다\n3. 반복적 피드백이 핵심이다\n4. 고전적인 소프트웨어 개발 방법이다",
+    "answer": "3. 반복적 피드백이 핵심이다"
+  },
+  {
+    "question": "폭포수 모델에 대한 설명 중 틀린 것은?\n1. 구조화된 개발 방법이다\n2. 요구사항이 명확할 때 적합하다\n3. 고객과의 지속적인 상호작용을 강조한다\n4. 단계별로 명확히 구분된다",
+    "answer": "3. 고객과의 지속적인 상호작용을 강조한다"
+  },
+  {
+    "question": "나선형 모델에 대한 설명으로 틀린 것은 무엇인가?\n1. 반복적으로 소프트웨어를 개발한다\n2. 각 반복 주기마다 위험 분석이 수행된다\n3. 요구사항 변경이 불가능하다\n4. 점진적으로 시스템을 완성해 간다",
+    "answer": "3. 요구사항 변경이 불가능하다"
+  },
+  {
+    "question": "다음 중 나선형 모델의 특징으로 옳지 않은 것은?\n1. 위험 요소를 식별하고 관리한다\n2. 프로토타입을 사용할 수 있다\n3. 고정된 단계로만 개발이 이루어진다\n4. 반복적 개발을 통해 완성도를 높인다",
+    "answer": "3. 고정된 단계로만 개발이 이루어진다"
+  },
+  {
+    "question": "나선형 모델에 대한 설명 중 틀린 것은?\n1. 반복 구조를 가진다\n2. 폭포수 모델의 단점을 일부 극복했다\n3. 위험 관리를 중요시한다\n4. 모든 단계가 한 번만 수행된다",
+    "answer": "4. 모든 단계가 한 번만 수행된다"
+  },
+  {
+    "question": "프로토타입 모델에 대한 설명으로 틀린 것은 무엇인가?\n1. 시제품을 만들어 사용자 요구사항을 파악한다\n2. 사용자와의 반복적인 상호작용이 있다\n3. 개발 초기에 최종 제품을 완성한다\n4. 요구사항 분석에 효과적이다",
+    "answer": "3. 개발 초기에 최종 제품을 완성한다"
+  },
+  {
+    "question": "프로토타입 모델의 특징으로 옳지 않은 것은?\n1. 빠르게 시제품을 만들어 본다\n2. 사용자의 피드백을 반영한다\n3. 요구사항이 명확할 때 유리하다\n4. 고객이 원하는 기능을 파악하기 쉽다",
+    "answer": "3. 요구사항이 명확할 때 유리하다"
+  },
+  {
+    "question": "다음 중 프로토타입 모델에 대한 설명으로 틀린 것은?\n1. 고객 요구사항을 정확히 파악할 수 있다\n2. 프로토타입을 통해 최종 시스템을 대체한다\n3. 프로토타입은 수정·보완이 가능하다\n4. 사용자 중심의 개발 방법이다",
+    "answer": "2. 프로토타입을 통해 최종 시스템을 대체한다"
+  },
+  {
+    "question": "애자일 모델에 대한 설명으로 틀린 것은 무엇인가?\n1. 짧은 주기로 반복적으로 개발한다\n2. 문서화보다 동작하는 소프트웨어를 중시한다\n3. 고객과의 협업보다 계약 협상을 우선시한다\n4. 변화에 유연하게 대응한다",
+    "answer": "3. 고객과의 협업보다 계약 협상을 우선시한다"
+  },
+  {
+    "question": "다음 중 애자일 개발 방법론의 특징으로 옳지 않은 것은?\n1. 지속적인 피드백과 개선\n2. 팀 간의 긴밀한 협업\n3. 사전에 모든 요구사항을 확정해야 함\n4. 점진적이고 반복적인 개발",
+    "answer": "3. 사전에 모든 요구사항을 확정해야 함"
+  },
+  {
+    "question": "애자일 방법론에 대한 설명 중 틀린 것은?\n1. 변화 수용이 어렵다\n2. 고객과 지속적으로 소통한다\n3. 소규모 팀 중심으로 운영된다\n4. 개발 결과물을 빠르게 제공한다",
+    "answer": "1. 변화 수용이 어렵다"
+  },
+  {
+    "question": "COCOMO 모델에서 소규모 팀이 비교적 단순하고 익숙한 환경에서 개발하는 프로젝트 유형은?",
+    "answer": "조직형 (Organic)"
+  },
+  {
+    "question": "COCOMO 모델에서 중간 규모 프로젝트로, 경험이 다른 인력들이 협업하며 복잡도도 중간 정도인 경우의 유형은?",
+    "answer": "반분리형 (Semidetached)"
+  },
+  {
+    "question": "COCOMO 모델에서 실시간 처리, 복잡한 제약, 하드웨어와 밀접한 통합이 필요한 경우에 해당하는 프로젝트 유형은?",
+    "answer": "내장형 (Embedded)"
+  },
+  {
+    "question": "COCOMO 모델에서 명확한 요구사항과 안정된 환경 속에서 수행되는 경험 많은 팀의 개발 프로젝트 유형은?",
+    "answer": "조직형 (Organic)"
+  },
+  {
+    "question": "COCOMO 모델에서 높은 신뢰성, 실시간 처리, 시스템 제약이 모두 요구되는 고도 복잡 프로젝트 유형은?",
+    "answer": "내장형 (Embedded)"
+  },
+
+  {
+    "question": "시스템 개발에서 입력, 처리, 출력의 기능을 계층적으로 표현하며, 시스템의 전체 구조를 도식화하는 도구는?",
+    "answer": "HIPO (Hierarchy plus Input Process Output)"
+  },
+  {
+    "question": "HIPO 기법에서 시스템의 구성 요소와 흐름을 그림으로 표현하여 사용자와 개발자 모두가 이해하기 쉽도록 만든 도표는?",
+    "answer": "가시적 도표 (Visual Table of Contents)"
+  },
+  {
+    "question": "HIPO에서 시스템 전체의 구성과 기능들을 한눈에 파악할 수 있도록 상위 수준에서 표현한 도표는?",
+    "answer": "총체적 도표 (Overview Diagram)"
+  },
+  {
+    "question": "HIPO에서 각 구성 요소의 세부 기능, 입력과 출력, 처리 내용을 상세하게 기술한 도표는?",
+    "answer": "세부적 도표 (Detail Diagram)"
+  },
+  {
+    "question": "입력, 처리, 출력 과정을 명확하게 구분하여 시스템 문서화 및 설계에 활용되는 도구로, 기능 중심의 계층적 구조를 가지는 것은?",
+    "answer": "HIPO (Hierarchy plus Input Process Output)"
+  },
+  {
+    "question": "다음 중 UML의 구성 요소에 대한 설명으로 틀린 것은?\n1. 사물(Things)은 모델의 구성 요소를 나타낸다\n2. 관계(Relationships)는 사물들 사이의 연관을 나타낸다\n3. 다이어그램(Diagram)은 모델 요소 간의 동작만 표현한다\n4. 도해적 표기법은 UML의 시각적 표현 방식을 말한다",
+    "answer": "3. 다이어그램(Diagram)은 모델 요소 간의 동작만 표현한다"
+  },
+  {
+    "question": "UML 구성 요소에 대한 설명으로 옳지 않은 것은?\n1. 구조 사물에는 클래스, 인터페이스 등이 포함된다\n2. 관계에는 연관, 집합, 일반화, 의존 등이 있다\n3. 행동 사물은 객체 간의 관계만을 나타낸다\n4. 다이어그램은 다양한 관점에서 시스템을 표현하는 데 사용된다",
+    "answer": "3. 행동 사물은 객체 간의 관계만을 나타낸다"
+  },
+  {
+    "question": "다음 중 UML의 관계(Relationship)에 대한 설명으로 틀린 것은?\n1. 일반화는 상위 개념이 하위 개념을 포함하는 관계이다\n2. 연관은 두 클래스 사이의 구조적 관계를 나타낸다\n3. 의존은 한 요소가 다른 요소의 변화에 영향을 받지 않는 관계이다\n4. 집합은 전체와 부분의 관계를 나타낸다",
+    "answer": "3. 의존은 한 요소가 다른 요소의 변화에 영향을 받지 않는 관계이다"
+  },
+  {
+    "question": "UML에서 시스템의 클래스와 클래스 간의 정적 관계를 표현하며, 속성과 메서드를 함께 나타내는 다이어그램은?",
+    "answer": "클래스 다이어그램 (Class Diagram)"
+  },
+  {
+    "question": "UML에서 객체 간의 메시지 흐름과 상호작용 순서를 시간의 흐름에 따라 표현하는 다이어그램은?",
+    "answer": "시퀀스 다이어그램 (Sequence Diagram)"
+  },
+  {
+    "question": "UML에서 시스템의 흐름이나 절차를 조건과 분기 등을 포함하여 표현하는 제어 흐름 기반의 다이어그램은?",
+    "answer": "활동 다이어그램 (Activity Diagram)"
+  },
+  {
+    "question": "객체의 상태 변화와 상태 간 전이 과정을 표현하며, 이벤트에 따라 상태가 어떻게 변화하는지를 나타내는 UML 다이어그램은?",
+    "answer": "상태 다이어그램 (State Diagram)"
+  },
+  {
+    "question": "사용자와 시스템 간의 상호작용을 기능 단위로 표현하며, 요구사항 분석에 주로 사용되는 UML 다이어그램은?",
+    "answer": "유스케이스 다이어그램 (Use Case Diagram)"
+  },
+  {
+    "question": "UML에서 클래스 다이어그램의 인스턴스를 표현하며, 특정 시점의 객체와 그 관계를 나타내는 다이어그램은?",
+    "answer": "객체 다이어그램 (Object Diagram)"
+  },
+  {
+    "question": "사용자와 시스템 간의 상호작용을 기능 중심으로 표현하며, 요구사항을 도출하는 데 사용되는 다이어그램은?",
+    "answer": "유스케이스 다이어그램 (Use Case Diagram)"
+  },
+  {
+    "question": "작업의 흐름과 조건 분기 등을 순서도 형태로 표현하여 제어 흐름을 보여주는 UML 다이어그램은?",
+    "answer": "활동 다이어그램 (Activity Diagram)"
+  },
+  {
+    "question": "객체의 상태 변화 과정을 중심으로 이벤트에 따라 상태가 어떻게 전이되는지를 나타내는 UML 다이어그램은?",
+    "answer": "상태 다이어그램 (State Diagram)"
+  },
+  {
+    "question": "객체 간 메시지 교환과 상호작용 순서를 시간의 흐름에 따라 표현하는 UML 다이어그램은?",
+    "answer": "시퀀스 다이어그램 (Sequence Diagram)"
+  },
+  {
+    "question": "객체들 사이의 메시지 전달을 중심으로 정적인 구조와 동적인 동작을 함께 표현하는 UML 다이어그램은?",
+    "answer": "커뮤니케이션 다이어그램 (Communication Diagram)"
+  },
+  {
+    "question": "다양한 상호작용 다이어그램들을 결합하여 전체적인 흐름을 보여주는 UML 다이어그램은?",
+    "answer": "상호작용 개요 다이어그램 (Interaction Overview Diagram)"
+  },
+  {
+    "question": "객체의 상태 변화가 시간에 따라 어떻게 진행되는지를 초 단위로 정밀하게 표현하는 UML 다이어그램은?",
+    "answer": "타이밍 다이어그램 (Timing Diagram)"
+  },
+  {
+    "question": "모듈 내부의 요소들이 하나의 기능만을 수행하도록 구성된 가장 높은 수준의 응집도는?",
+    "answer": "기능적 응집도 (Functional Cohesion)"
+  },
+  {
+    "question": "모듈이 동일한 시간에 수행되는 기능을 포함할 때의 응집도는?",
+    "answer": "시간적 응집도 (Temporal Cohesion)"
+  },
+  {
+    "question": "모듈 내 작업들이 순차적으로 수행되며, 앞의 출력이 뒤의 입력이 되는 응집도는?",
+    "answer": "순차적 응집도 (Sequential Cohesion)"
+  },
+  {
+    "question": "모듈이 동일한 자료 구조를 사용하여 관련된 기능을 수행할 때의 응집도는?",
+    "answer": "논리적 응집도 (Logical Cohesion)"
+  },
+  {
+    "question": "모듈 내 구성 요소들이 특정 순서대로 실행될 필요가 있는 경우의 응집도는?",
+    "answer": "절차적 응집도 (Procedural Cohesion)"
+  },
+  {
+    "question": "모듈 내 요소들이 특정 자료를 중심으로 처리하는 응집도로, 중간 정도 수준의 응집도는?",
+    "answer": "통신적 응집도 (Communicational Cohesion)"
+  },
+  {
+    "question": "모듈의 구성 요소들이 아무런 연관성 없이 단순히 모여 있는 가장 낮은 수준의 응집도는?",
+    "answer": "우연적 응집도 (Coincidental Cohesion)"
+  },
+  {
+    "question": "한 모듈이 다른 모듈의 내부 논리나 구조를 참조하는 가장 낮은 결합도는?",
+    "answer": "내용 결합도 (Content Coupling)"
+  },
+  {
+    "question": "한 모듈이 다른 모듈의 내부 자료를 직접 참조할 때의 결합도는?",
+    "answer": "공통 결합도 (Common Coupling)"
+  },
+  {
+    "question": "모듈 간에 동일한 자료 구조를 공유하나, 일부만 사용하는 결합도는?",
+    "answer": "외부 결합도 (External Coupling)"
+  },
+  {
+    "question": "한 모듈이 다른 모듈에 제어 신호를 전달하여 수행을 제어하는 결합도는?",
+    "answer": "제어 결합도 (Control Coupling)"
+  },
+  {
+    "question": "모듈 간에 단순한 데이터만 전달하는 가장 낮은 결합도는?",
+    "answer": "자료 결합도 (Data Coupling)"
+  },
+  {
+    "question": "한 모듈이 다른 모듈을 호출하며, 인수로 동작을 지정하는 결합도는?",
+    "answer": "스탬프 결합도 (Stamp Coupling)"
+  },
+  {
+    "question": "모듈 간 상호작용이 없고 독립적으로 구성된 경우의 결합도는?",
+    "answer": "자료 결합도 (Data Coupling)"
+  },
+  {
+    "question": "모듈 A가 모듈 B, C로부터 각각 호출되고 있다. 모듈 A의 FAN-IN은 얼마인가?",
+    "answer": "2 (FAN-IN = 2)"
+  },
+  {
+    "question": "모듈 X가 모듈 Y, Z, W 세 개의 모듈을 호출하고 있다. 이때 모듈 X의 FAN-OUT은 얼마인가?",
+    "answer": "3 (FAN-OUT = 3)"
+  },
+  {
+    "question": "각 항목이 순차적으로 나열되어 있고, 특정 순서나 규칙에 따라 번호가 부여되는 코드 유형은?",
+    "answer": "순차코드 (Sequential Code)"
+  },
+  {
+    "question": "코드 내에서 일정한 범위가 주어지고, 범위에 맞는 코드들로 그룹화되어 사용되는 코드 유형은?",
+    "answer": "블록코드 (Block Code)"
+  },
+  {
+    "question": "숫자 값이 10진수로 표현되며, 10진수를 그대로 사용하는 코드 유형은?",
+    "answer": "10진코드 (Decimal Code)"
+  },
+  {
+    "question": "항목들을 특정 범주에 따라 그룹화하여 분류하는 방식으로, 분류 기준에 맞춰 사용하는 코드 유형은?",
+    "answer": "그룹분류코드 (Group Classification Code)"
+  },
+  {
+    "question": "각 항목이 다른 항목과 연관된 의미를 갖도록 코드를 부여하는 방식으로, 의미가 연관된 방식의 코드 유형은?",
+    "answer": "연상코드 (Mnemonic Code)"
+  },
+  {
+    "question": "주어진 표에서 특정 숫자를 찾아 사용하는 방식으로, 코드가 표에 있는 숫자와 매칭되는 코드 유형은?",
+    "answer": "표의숫자코드 (Table Lookup Code)"
+  },
+  {
+    "question": "두 개 이상의 코드 요소를 결합하여 더 복잡한 코드를 형성하는 방식으로, 여러 코드가 결합된 코드 유형은?",
+    "answer": "합성코드 (Composite Code)"
+  },
+  {
+    "question": "애플리케이션을 여러 계층으로 나누어 각 계층이 특정 역할을 담당하도록 설계된 아키텍처 패턴은?",
+    "answer": "계층형 아키텍처 (Layered Architecture)"
+  },
+  {
+    "question": "서버가 데이터를 제공하고, 클라이언트가 데이터를 요청하는 구조로, 클라이언트와 서버 간의 명확한 역할 구분이 있는 아키텍처 패턴은?",
+    "answer": "클라이언트-서버 아키텍처 (Client-Server Architecture)"
+  },
+  {
+    "question": "작고 독립적인 서비스들이 서로 통신하며 작동하는 구조로, 각 서비스가 독립적으로 배포되고 실행되는 아키텍처 패턴은?",
+    "answer": "마이크로서비스 아키텍처 (Microservices Architecture)"
+  },
+  {
+    "question": "이벤트 발생에 의해 시스템이 동작하고, 이벤트가 중요한 역할을 하는 아키텍처 패턴은?",
+    "answer": "이벤트 기반 아키텍처 (Event-driven Architecture)"
+  },
+  {
+    "question": "데이터 처리 과정이 일련의 필터들을 통해 파이프라인 형태로 이어지는 아키텍처 패턴은?",
+    "answer": "파이프-필터 아키텍처 (Pipe-and-Filter Architecture)"
+  },
+  {
+    "question": "사용자 인터페이스와 비즈니스 로직을 분리하여, 모델, 뷰, 컨트롤러의 세 가지 구성 요소로 나누어 설계하는 아키텍처 패턴은?",
+    "answer": "MVC 아키텍처 (Model-View-Controller Architecture)"
+  },
+  {
+    "question": "소프트웨어 시스템을 여러 계층으로 나누어 각 계층이 독립적으로 개발되고, 기능별로 나누어 개발하는 아키텍처 패턴은?",
+    "answer": "레이어드 패턴 (Layered Pattern)"
+  },
+  {
+    "question": "애플리케이션이 하나의 단일 블록으로 구성되고, 여러 기능이 하나의 응집된 시스템으로 동작하는 아키텍처 패턴은?",
+    "answer": "모놀리식 아키텍처 (Monolithic Architecture)"
+  },
+  {
+    "question": "독립적인 서비스들이 표준화된 프로토콜을 사용하여 상호작용하는 아키텍처 패턴으로, 서비스 간의 통합과 재사용이 강조되는 아키텍처는?",
+    "answer": "서비스 지향 아키텍처 (SOA, Service-Oriented Architecture)"
+  },
+  {
+    "question": "비동기식 이벤트와 반응형 프로그래밍을 기반으로, 시스템이 외부 자극에 민감하게 반응하며 동작하는 아키텍처 패턴은?",
+    "answer": "리액티브 아키텍처 (Reactive Architecture)"
+  },
+  {
+    "question": "서버와 클라이언트가 서로 메시지를 교환하며, 중개자로서 서버가 클라이언트와 통신을 중재하는 아키텍처 패턴은?",
+    "answer": "브로커 패턴 (Broker Pattern)"
+  },
+  {
+    "question": "하나의 주된 시스템이 다른 하위 시스템을 제어하고, 마스터 시스템이 여러 슬레이브 시스템과 상호작용하는 구조의 아키텍처 패턴은?",
+    "answer": "마스터-슬레이브 패턴 (Master-Slave Pattern)"
+  },
+  {
+    "question": "모든 시스템이 대등하게 상호작용하며, 네트워크 상에서 모든 시스템이 동일한 역할을 수행하는 아키텍처 패턴은?",
+    "answer": "피어-투-피어 패턴 (Peer-to-Peer Pattern)"
+  },
+  {
+    "question": "문법이나 언어를 정의하는 데 사용되는 구조적 패턴으로, 규칙을 기반으로 동작하는 아키텍처 패턴은?",
+    "answer": "인터프리터 패턴 (Interpreter Pattern)"
+  },
+  {
+    "question": "문제를 더 작은 하위 문제로 나누어 각 하위 문제를 해결하고, 그 해결을 결합하여 전체 문제를 해결하는 방식의 알고리즘 설계 기법은 무엇인가?",
+    "answer": "분할 정보 (Divide and Conquer)"
+  },
+  {
+    "question": "매 단계에서 가장 최적의 선택을 하고, 그 선택을 바탕으로 문제를 해결하는 알고리즘 설계 기법은 무엇인가?",
+    "answer": "탐욕법 (Greedy Method)"
+  },
+  {
+    "question": "문제의 해법을 자기 자신을 호출하여 점진적으로 해결하는 방식으로 알고리즘을 설계하는 기법은 무엇인가?",
+    "answer": "재귀법 (Recursive Method)"
+  },
+  {
+    "question": "문제를 해결할 때, 완전한 해법을 구하지 않고 근사적인 해법을 제공하는 방식으로 문제를 해결하는 알고리즘 설계 기법은 무엇인가?",
+    "answer": "근사법 (Approximation Algorithm)"
+  },
+  {
+    "question": "주어진 문제를 여러 개의 작은 문제로 나누어 각 문제를 해결한 후, 그 결과를 합쳐 전체 문제를 해결하는 방식의 알고리즘 설계 기법은 무엇인가?",
+    "answer": "동적 계획법 (Dynamic Programming)"
+  },
+  {
+    "question": "문제의 가능한 해들을 모두 탐색하면서, 조건에 맞지 않으면 되돌아가 다른 경로를 시도하는 알고리즘 설계 기법은 무엇인가?",
+    "answer": "퇴각법 (Backtracking)"
+  },
+  {
+    "question": "다음 전위식을 중위식으로 변환하시오: + A * B C",
+    "answer": "(A + (B * C))"
+  },
+  {
+    "question": "다음 전위식을 후위식으로 변환하시오: * A + B C",
+    "answer": "A B C + *"
+  },
+  {
+    "question": "다음 전위식을 중위식으로 변환하시오: - + A B C",
+    "answer": "((A + B) - C)"
+  },
+  {
+    "question": "다음 중위식을 전위식으로 변환하시오: A + B * C",
+    "answer": "+ A * B C"
+  },
+  {
+    "question": "다음 중위식을 후위식으로 변환하시오: A + B * C",
+    "answer": "A B C * +"
+  },
+  {
+    "question": "다음 중위식을 전위식으로 변환하시오: A * (B + C)",
+    "answer": "* A + B C"
+  },
+  {
+    "question": "다음 후위식을 전위식으로 변환하시오: A B C * +",
+    "answer": "+ A * B C"
+  },
+  {
+    "question": "다음 후위식을 중위식으로 변환하시오: A B C * +",
+    "answer": "(A + (B * C))"
+  },
+  {
+    "question": "다음 후위식을 전위식으로 변환하시오: A B C + *",
+    "answer": "* A + B C"
+  },
+  {
+    "question": "다음 전위식을 중위식으로 변환하시오: + A * B C - D E",
+    "answer": "(A + (B * C) - D E)"
+  },
+  {
+    "question": "다음 중위식을 후위식으로 변환하시오: A + B * (C - D) / E",
+    "answer": "A B C D - * E / +"
+  },
+  {
+    "question": "다음 후위식을 중위식으로 변환하시오: A B C + * D E -",
+    "answer": "(A * (B + C)) - D E"
+  },
+  {
+    "question": "주어진 알고리즘이 데이터를 한 번만 순차적으로 탐색하는 경우, 이 알고리즘의 시간 복잡도는 무엇인가?",
+    "answer": "O(n)"
+  },
+  {
+    "question": "중첩된 반복문이 있을 때, 외부 반복문이 n번, 내부 반복문이 n번 실행되는 알고리즘의 시간 복잡도는 무엇인가?",
+    "answer": "O(n^2)"
+  },
+  {
+    "question": "알고리즘이 주어진 입력에서 절반을 제거하며 수행되는 경우, 예를 들어 이진 탐색 알고리즘의 시간 복잡도는 무엇인가?",
+    "answer": "O(log n)"
+  },
+  {
+    "question": "주어진 알고리즘이 각 원소에 대해 상수 시간 동안 작업을 하고 모든 원소에 대해 반복하는 경우, 이 알고리즘의 시간 복잡도는 무엇인가?",
+    "answer": "O(n)"
+  },
+  {
+    "question": "알고리즘이 두 개의 배열을 각각 한 번씩 순회하면서 두 배열의 각 원소를 비교하는 경우, 이 알고리즘의 시간 복잡도는 무엇인가?",
+    "answer": "O(n)"
+  },
+  {
+    "question": "알고리즘이 매 단계마다 문제의 크기를 두 배로 줄이는 경우, 예를 들어 병합 정렬이나 퀵 정렬 알고리즘의 시간 복잡도는 무엇인가?",
+    "answer": "O(n log n)"
+  },
+  {
+    "question": "주어진 알고리즘이 각 입력에 대해 모든 가능한 경우의 수를 탐색하는 방식으로 수행되는 경우, 이 알고리즘의 시간 복잡도는 무엇인가?",
+    "answer": "O(2^n)"
+  },
+  {
+    "question": "알고리즘이 주어진 리스트를 정렬하는데 사용할 때, 최악의 경우에서 수행되는 연산 횟수가 원소의 개수에 비례해 증가하는 알고리즘의 시간 복잡도는 무엇인가?",
+    "answer": "O(n^2)"
+  },
+  {
+    "question": "한 번의 연산으로 입력 크기에서 모든 가능한 값을 탐색하며 시간 복잡도가 매우 빠른 알고리즘의 시간 복잡도는 무엇인가?",
+    "answer": "O(1)"
+  },
+  {
+    "question": "알고리즘이 데이터를 한 번 순차적으로 처리하면서 각 단계에서 두 개의 다른 연산을 수행하는 경우, 이 알고리즘의 시간 복잡도는 무엇인가?",
+    "answer": "O(n)"
+  },
+  {
+    "question": "다음 중 **입력 값**을 **정수로 나누고 나머지**를 해시 값으로 사용하는 해시 함수는 무엇인가?",
+    "answer": "제산법 (Division Method)"
+  },
+  {
+    "question": "입력 데이터를 **여러 부분으로 나누어 각 부분을 더**하여 해시 값을 계산하는 방법은 무엇인가?",
+    "answer": "폴딩법 (Folding Method)"
+  },
+  {
+    "question": "입력 값을 **제곱하여 나온 값의 일부**를 해시 값으로 사용하는 방법은 무엇인가?",
+    "answer": "제곱법 (Squaring Method)"
+  },
+  {
+    "question": "이 해시 함수는 **숫자 분석을 통해** 입력 데이터를 해시 값으로 변환하는 방법을 사용하는데, 특정한 숫자 규칙에 따라 해시 값을 계산하는 방법은 무엇인가?",
+    "answer": "숫자 분석법 (Number Analysis Method)"
+  },
+  {
+    "question": "입력 값을 **기수로 변환**한 후, 각 자리 수를 더하여 해시 값을 생성하는 방법은 무엇인가?",
+    "answer": "기수 변환법 (Radix Conversion Method)"
+  },
+  {
+    "question": "이 해시 함수는 **무작위로 선택된 값**을 해시 값으로 사용하는 방법을 기반으로 한 해시 함수는 무엇인가?",
+    "answer": "무작위법 (Random Method)"
+  },
+  {
+    "question": "다음 중 **화이트박스 테스트**의 기법이 아닌 것은 무엇인가? \n1. 조건 커버리지 (Condition Coverage) \n2. 구문 검사 (Statement Testing) \n3. 결정 경로 검사 (Decision Path Testing) \n4. 경계 값 분석 (Boundary Value Analysis)",
+    "answer": "4. 경계 값 분석 (Boundary Value Analysis)"
+  },
+  {
+    "question": "다음 중 **블랙박스 테스트**의 기법이 아닌 것은 무엇인가? \n1. 등가 클래스 분할 (Equivalence Class Partitioning) \n2. 구문 검사 (Statement Testing) \n3. 경계 값 분석 (Boundary Value Analysis) \n4. 경계 경로 검사 (Boundary Path Testing)",
+    "answer": "2. 구문 검사 (Statement Testing)"
+  },
+  {
+    "question": "다음 중 **화이트박스 테스트**의 기법이 아닌 것은 무엇인가? \n1. 조건 커버리지 (Condition Coverage) \n2. 구문 검사 (Statement Testing) \n3. 등가 클래스 분할 (Equivalence Class Partitioning) \n4. 결정 경로 검사 (Decision Path Testing)",
+    "answer": "3. 등가 클래스 분할 (Equivalence Class Partitioning)"
+  },
+  {
+    "question": "다음 중 **블랙박스 테스트**의 기법이 아닌 것은 무엇인가? \n1. 구문 검사 (Statement Testing) \n2. 경계 값 분석 (Boundary Value Analysis) \n3. 등가 클래스 분할 (Equivalence Class Partitioning) \n4. 조합적 테스트 (Combinatorial Testing)",
+    "answer": "1. 구문 검사 (Statement Testing)"
+  },
+  {
+    "question": "다음 중 **화이트박스 테스트**의 기법이 아닌 것은 무엇인가? \n1. 조건 커버리지 (Condition Coverage) \n2. 결정 경로 검사 (Decision Path Testing) \n3. 구문 검사 (Statement Testing) \n4. 등가 클래스 분할 (Equivalence Class Partitioning)",
+    "answer": "4. 등가 클래스 분할 (Equivalence Class Partitioning)"
+  },
+  {
+    "question": "다음 중 **테스트 오라클**에서 사용되는 기법으로, **정확한 기준을 제공**하여 결과를 판단하는 방식은 무엇인가?\n1. 참 (True Oracle)\n2. 샘플링 (Sampling)\n3. 휴리스틱 (Heuristic)\n4. 일관성 (Consistency)",
+    "answer": "참 (True Oracle)"
+  },
+  {
+    "question": "다음 중 **테스트 오라클**에서 **일부 데이터만을 선택**하여 테스트 결과를 판단하는 기법은 무엇인가?\n1. 참 (True Oracle)\n2. 샘플링 (Sampling)\n3. 휴리스틱 (Heuristic)\n4. 일관성 (Consistency)",
+    "answer": "샘플링 (Sampling)"
+  },
+  {
+    "question": "다음 중 **테스트 오라클**에서 **경험적 지식과 규칙을 기반으로** 테스트 결과를 예측하는 기법은 무엇인가?\n1. 참 (True Oracle)\n2. 샘플링 (Sampling)\n3. 휴리스틱 (Heuristic)\n4. 일관성 (Consistency)",
+    "answer": "휴리스틱 (Heuristic)"
+  },
+  {
+    "question": "다음 중 **테스트 오라클**에서 **일관된 규칙과 논리**에 따라 테스트 결과를 평가하는 기법은 무엇인가?\n1. 참 (True Oracle)\n2. 샘플링 (Sampling)\n3. 휴리스틱 (Heuristic)\n4. 일관성 (Consistency)",
+    "answer": "일관성 (Consistency)"
+  },
+  {
+    "question": "다음 중 **관계 대수**에서 두 관계 R과 S에 대해 **합집합**을 구하는 연산자는 무엇인가?\n1. R ∪ S\n2. R ∩ S\n3. R - S\n4. R × S",
+    "answer": "합집합 (Union)"
+  },
+  {
+    "question": "다음 중 **관계 대수**에서 두 관계 R과 S에 대해 **교집합**을 구하는 연산자는 무엇인가?\n1. R ∪ S\n2. R ∩ S\n3. R - S\n4. R × S",
+    "answer": "교집합 (Intersection)"
+  },
+  {
+    "question": "다음 중 **관계 대수**에서 두 관계 R과 S에 대해 **차집합**을 구하는 연산자는 무엇인가?\n1. R ∪ S\n2. R ∩ S\n3. R - S\n4. R × S",
+    "answer": "차집합 (Difference)"
+  },
+  {
+    "question": "다음 중 **뷰 정의**에 대한 설명으로 **잘못된** 것은 무엇인가?\n1. 뷰는 데이터베이스의 가상 테이블이다.\n2. 뷰는 실제 데이터를 저장한다.\n3. 뷰는 쿼리 결과로 생성된다.\n4. 뷰는 사용자가 데이터를 조회할 때 편리하게 사용할 수 있다.",
+    "answer": "2. 뷰는 실제 데이터를 저장한다."
+  },
+  {
+    "question": "다음 중 **뷰 장점**에 대한 설명으로 **잘못된** 것은 무엇인가?\n1. 뷰는 복잡한 쿼리를 간단하게 만들어준다.\n2. 뷰는 여러 테이블을 조합하여 데이터를 보여줄 수 있다.\n3. 뷰는 사용자가 직접 데이터 수정이 가능하다.\n4. 뷰는 데이터 접근을 제어할 수 있다.",
+    "answer": "3. 뷰는 사용자가 직접 데이터 수정이 가능하다."
+  },
+  {
+    "question": "다음 중 **뷰 단점**에 대한 설명으로 **잘못된** 것은 무엇인가?\n1. 뷰는 성능 저하를 초래할 수 있다.\n2. 뷰는 데이터 무결성을 보장한다.\n3. 뷰는 복잡한 쿼리 성능을 개선할 수 있다.\n4. 뷰는 저장 공간을 절약할 수 있다.",
+    "answer": "3. 뷰는 복잡한 쿼리 성능을 개선할 수 있다."
+  },
+  {
+    "question": "다음 중 **타입스탬프**를 사용하여 트랜잭션 실행 순서를 제어하는 병행 제어 기법은 무엇인가?\n1. Timestamp Ordering (타입스탬프)\n2. Optimistic Concurrency Control (낙관적 병행 제어)\n3. Multi-Version Concurrency Control (다중 버전 병행 제어)\n4. Locking Protocols (잠금 프로토콜)",
+    "answer": "Timestamp Ordering (타입스탬프)"
+  },
+  {
+    "question": "다음 중 **낙관적 병행 제어** 기법은 어떤 특징을 가지고 있나요?\n1. 트랜잭션이 실행될 때 충돌이 드물다고 가정하고, 충돌이 발생하면 그때 수정하는 기법\n2. 데이터를 여러 버전으로 관리하는 기법\n3. 트랜잭션이 실행될 때 항상 잠금을 사용하여 충돌을 방지하는 기법\n4. 트랜잭션 실행 순서를 타임스탬프를 기준으로 제어하는 기법",
+    "answer": "Optimistic Concurrency Control (낙관적 병행 제어)"
+  },
+  {
+    "question": "다음 중 **다중 버전 병행 제어** 기법의 특징으로 올바른 것은 무엇인가?\n1. 데이터를 여러 버전으로 저장하고, 트랜잭션은 이전 버전을 읽을 수 있는 기법\n2. 충돌이 발생할 때마다 트랜잭션을 롤백하는 기법\n3. 트랜잭션 간의 동시 실행을 완전히 차단하는 기법\n4. 트랜잭션 실행 순서를 타임스탬프를 기준으로 제어하는 기법",
+    "answer": "Multi-Version Concurrency Control (다중 버전 병행 제어)"
+  },
+  {
+    "question": "다음 중 분산 데이터베이스 시스템에서 **투명성**의 종류로 올바르지 않은 것은 무엇인가?\n1. 접근 투명성 (Access Transparency)\n2. 위치 투명성 (Location Transparency)\n3. 변환 투명성 (Transformation Transparency)\n4. 복제 투명성 (Replication Transparency)",
+    "answer": "변환 투명성 (Transformation Transparency)"
+  },
+  {
+    "question": "분산 데이터베이스 시스템에서 **장애 투명성**(Failure Transparency)의 목적은 무엇인가?\n1. 시스템 장애가 발생해도 사용자가 이를 인식하지 못하도록 하는 것\n2. 데이터를 복제할 수 있도록 하는 것\n3. 여러 사용자가 동시에 접근할 수 있도록 하는 것\n4. 데이터를 물리적 위치와 관계없이 접근할 수 있도록 하는 것",
+    "answer": "시스템 장애가 발생해도 사용자가 이를 인식하지 못하도록 하는 것"
+  },
+  {
+    "question": "다음 중 **위치 투명성**(Location Transparency)에 대한 설명으로 올바른 것은 무엇인가?\n1. 사용자가 데이터의 물리적 위치를 알 필요 없게 만드는 것\n2. 시스템 장애가 발생할 때 사용자가 이를 알지 못하게 만드는 것\n3. 여러 사용자가 동시에 데이터를 수정할 수 있도록 하는 것\n4. 데이터를 복제하여 다수의 사용자가 사용할 수 있게 하는 것",
+    "answer": "사용자가 데이터의 물리적 위치를 알 필요 없게 만드는 것"
+  },
+  {
+    "question": "다음 중 **병렬 투명성**(Concurrency Transparency)의 주요 목적은 무엇인가?\n1. 여러 사용자가 동시에 데이터를 수정하더라도 충돌 없이 처리할 수 있도록 하는 것\n2. 데이터를 여러 위치에 복제할 수 있도록 하는 것\n3. 사용자가 데이터를 수정할 때 물리적 위치를 몰라도 되게 하는 것\n4. 데이터의 복제본을 시스템이 자동으로 관리하게 하는 것",
+    "answer": "여러 사용자가 동시에 데이터를 수정하더라도 충돌 없이 처리할 수 있도록 하는 것"
+  },
+  {
+    "question": "분산 데이터베이스 시스템에서 **복제 투명성**(Replication Transparency)을 사용하는 이유는 무엇인가?\n1. 데이터를 여러 복제본으로 관리하여, 데이터 손실이나 장애 발생 시에도 사용자에게 영향을 미치지 않도록 하는 것\n2. 사용자가 데이터에 접근할 때 물리적 위치를 알지 못하게 하는 것\n3. 트랜잭션이 실행되는 순서를 제어하기 위해서\n4. 여러 사용자들이 동시에 데이터를 수정할 수 있도록 하는 것",
+    "answer": "데이터를 여러 복제본으로 관리하여, 데이터 손실이나 장애 발생 시에도 사용자에게 영향을 미치지 않도록 하는 것"
+  },
+  {
+    "question": "다음 중 **DBMS**의 필수 기능이 아닌 것은 무엇인가?\n1. 데이터 정의 (Data Definition)\n2. 데이터 보안 (Data Security)\n3. 데이터 분석 (Data Analysis)\n4. 데이터 무결성 (Data Integrity)",
+    "answer": "데이터 분석 (Data Analysis)"
+  },
+  {
+    "question": "다음 중 **DBMS**의 필수 기능으로 포함되지 않는 것은 무엇인가?\n1. 트랜잭션 관리 (Transaction Management)\n2. 데이터 검색 (Data Querying)\n3. 물리적 파일 관리 (Physical File Management)\n4. 복잡한 알고리즘 계산 (Complex Algorithm Calculation)",
+    "answer": "복잡한 알고리즘 계산 (Complex Algorithm Calculation)"
+  },
+  {
+    "question": "다음 중 **DBMS**에서 제공하는 필수 기능이 아닌 것은 무엇인가?\n1. 데이터 백업 및 복구 (Data Backup and Recovery)\n2. 사용자 관리 (User Management)\n3. 데이터 분석 및 예측 (Data Analysis and Prediction)\n4. 동시성 제어 (Concurrency Control)",
+    "answer": "데이터 분석 및 예측 (Data Analysis and Prediction)"
+  },
+  {
+    "question": "다음 중 **DBMS**의 필수 기능이 아닌 것은 무엇인가?\n1. 데이터 정의 및 수정 (Data Definition and Modification)\n2. 데이터 검색 및 질의 처리 (Data Querying)\n3. 데이터 마이닝 (Data Mining)\n4. 트랜잭션 처리 (Transaction Processing)",
+    "answer": "데이터 마이닝 (Data Mining)"
+  },
+  {
+    "question": "다음 중 **DBMS**의 필수 기능으로 포함되지 않는 것은 무엇인가?\n1. 데이터 무결성 관리 (Data Integrity Management)\n2. 트랜잭션 관리 (Transaction Management)\n3. 데이터 저장소 관리 (Data Storage Management)\n4. 데이터 시각화 (Data Visualization)",
+    "answer": "데이터 시각화 (Data Visualization)"
+  },
+  {
+    "question": "다음 중 **객체지향 분석 방법론**에 대한 정의로 옳은 것은 무엇인가?\n1. 객체와 클래스의 정의, 상호작용 모델링을 중심으로 한 방법론\n2. 객체의 책임과 협력을 정의하는 방법론\n3. 객체 지향 설계를 위한 유니파이드 모델링 언어(UML)를 사용하는 방법론\n4. 시스템을 사용자 요구사항에 맞춰 프로토타입으로 개발하는 방법론",
+    "answer": "Booch"
+  },
+  {
+    "question": "다음 중 **객체지향 분석 방법론**에 대한 정의로 옳은 것은 무엇인가?\n1. 객체 모델링과 상호작용을 중심으로 분석하는 방법론\n2. 객체의 책임과 협력 관계를 중심으로 분석하는 방법론\n3. 클래스 및 객체 간의 관계를 정의하는 방법론\n4. 트랜잭션 흐름을 분석하는 방법론",
+    "answer": "럼바우"
+  },
+  {
+    "question": "다음 중 **객체지향 분석 방법론**에 대한 정의로 옳은 것은 무엇인가?\n1. 객체 지향 설계를 위한 UML을 중심으로 하는 방법론\n2. 시스템을 객체와 클래스 단위로 분할하여 분석하는 방법론\n3. 객체와 그 상호작용을 기반으로 시스템을 모델링하는 방법론\n4. 사용자 요구사항을 객체로 변환하여 시스템을 설계하는 방법론",
+    "answer": "Jacobson"
+  },
+  {
+    "question": "다음 중 **객체지향 분석 방법론**에 대한 정의로 옳은 것은 무엇인가?\n1. 클래스 및 객체 간의 관계를 모델링하고, 상속과 다형성을 분석하는 방법론\n2. 객체의 상태와 행위에 초점을 맞춘 분석 방법론\n3. 객체와 상호작용을 중심으로 시스템을 분석하는 방법론\n4. 데이터베이스 설계를 중점적으로 하는 방법론",
+    "answer": "Coad/Yourdon"
+  },
+  {
+    "question": "다음 중 **객체지향 분석 방법론**에 대한 정의로 옳은 것은 무엇인가?\n1. 시스템의 요구사항을 객체로 변환하여 다이어그램을 생성하는 방법론\n2. 객체의 책임과 협력 관계를 정의하여 시스템을 분석하는 방법론\n3. 객체와 클래스 간의 상호작용을 정의하는 방법론\n4. 시스템의 구조를 분석하고, 트랜잭션 흐름을 분석하는 방법론",
+    "answer": "Wirfs-Brock"
+  },
+  {
+    "question": "다음 중 **생성 패턴**에 해당하지 않는 것은 무엇인가?\n1. 싱글턴 패턴\n2. 팩토리 메서드 패턴\n3. 빌더 패턴\n4. 추상 팩토리 패턴\n5. 프로토타입 패턴\n6. 어댑터 패턴",
+    "answer": "Adapter Pattern"
+  },
+  {
+    "question": "다음 중 **구조 패턴**에 해당하지 않는 것은 무엇인가?\n1. 어댑터 패턴\n2. 프록시 패턴\n3. 컴포지트 패턴\n4. 브리지 패턴\n5. 데코레이터 패턴\n6. 옵저버 패턴",
+    "answer": "Observer Pattern"
+  },
+  {
+    "question": "다음 중 **행위 패턴**에 해당하지 않는 것은 무엇인가?\n1. 전략 패턴\n2. 템플릿 메서드 패턴\n3. 상태 패턴\n4. 빌더 패턴\n5. 커맨드 패턴\n6. 체인 오브 리스폰서빌리티 패턴",
+    "answer": "Builder Pattern"
+  },
+  {
+    "question": "다음 중 가장 오래된 페이지를 교체하는 페이지 교체 알고리즘은 무엇인가?\n1. LRU\n2. FIFO\n3. Optimal\n4. Clock\n5. Aging\n6. NRU",
+    "answer": "FIFO (First In, First Out)"
+  },
+  {
+    "question": "다음 중 가장 오래 사용되지 않은 페이지를 교체하는 알고리즘은 무엇인가?\n1. FIFO\n2. Optimal\n3. LRU\n4. NRU\n5. WSClock\n6. Clock",
+    "answer": "LRU (Least Recently Used)"
+  },
+  {
+    "question": "다음 중 미래의 접근 패턴을 알고 있다고 가정하고 가장 오랫동안 사용되지 않을 페이지를 교체하는 알고리즘은?\n1. LRU\n2. FIFO\n3. Clock\n4. Optimal\n5. NRU\n6. Aging",
+    "answer": "Optimal (OPT)"
+  },
+  {
+    "question": "다음 중 참조 비트를 활용하여 한 번의 기회를 더 주는 방식의 알고리즘은 무엇인가?\n1. NRU\n2. FIFO\n3. Clock\n4. Optimal\n5. LRU\n6. WSClock",
+    "answer": "Clock (Second Chance)"
+  },
+  {
+    "question": "다음 중 참조 비트와 수정 비트를 활용하여 최근에 사용되지 않은 페이지를 판단하는 알고리즘은?\n1. LRU\n2. Optimal\n3. Clock\n4. NRU\n5. FIFO\n6. WSClock",
+    "answer": "NRU (Not Recently Used)"
+  },
+  {
+    "question": "다음 중 Working Set 개념을 기반으로 하여 페이지 교체 대상을 판단하는 알고리즘은 무엇인가?\n1. Clock\n2. NRU\n3. WSClock\n4. FIFO\n5. Aging\n6. Optimal",
+    "answer": "WSClock (Working Set Clock)"
+  },
+  {
+    "question": "다음 중 페이지의 사용 빈도에 따라 나이를 증가시켜 오래된 페이지를 교체하는 알고리즘은 무엇인가?\n1. FIFO\n2. LRU\n3. Clock\n4. WSClock\n5. Optimal\n6. Aging",
+    "answer": "Aging"
+  },
+  {
+    "question": "다음 중 클래스 A (Class A)에 해당하는 IP 주소는?\n1. 10.0.0.1\n2. 172.16.0.1\n3. 192.168.0.1\n4. 224.0.0.1\n5. 240.0.0.1\n6. 127.0.0.1",
+    "answer": "10.0.0.1 (Class A)"
+  },
+  {
+    "question": "다음 중 클래스 B (Class B)에 해당하는 IP 주소는?\n1. 8.8.8.8\n2. 172.16.0.1\n3. 192.0.0.1\n4. 224.1.1.1\n5. 240.1.1.1\n6. 126.255.255.255",
+    "answer": "172.16.0.1 (Class B)"
+  },
+  {
+    "question": "다음 중 클래스 C (Class C)에 해당하는 IP 주소는?\n1. 10.1.1.1\n2. 172.31.255.254\n3. 192.168.1.1\n4. 224.255.255.255\n5. 240.0.0.1\n6. 1.1.1.1",
+    "answer": "192.168.1.1 (Class C)"
+  },
+  {
+    "question": "다음 중 클래스 D (Class D)에 해당하는 IP 주소는?\n1. 192.0.2.1\n2. 224.0.0.1\n3. 172.20.0.1\n4. 10.0.0.1\n5. 240.0.0.1\n6. 203.0.113.1",
+    "answer": "224.0.0.1 (Class D)"
+  },
+  {
+    "question": "다음 중 클래스 E (Class E)에 해당하는 IP 주소는?\n1. 239.255.255.255\n2. 255.255.255.254\n3. 240.0.0.1\n4. 192.168.0.1\n5. 172.16.0.1\n6. 10.10.10.10",
+    "answer": "240.0.0.1 (Class E)"
+  },
+  {
+    "question": "다음 보기 중 대칭키 암호화 알고리즘이 **아닌 것**은 무엇인가?\n1. DES\n2. AES\n3. IDEA\n4. WEP\n5. RC5\n6. SEED",
+    "answer": "WEP (Wired Equivalent Privacy)"
+  },
+  {
+    "question": "다음 보기 중 대칭키 암호화 알고리즘이 **아닌 것**은 무엇인가?\n1. ARIA\n2. TKIP\n3. AES\n4. SEED\n5. RC5\n6. DES",
+    "answer": "TKIP (Temporal Key Integrity Protocol)"
+  },
+  {
+    "question": "다음 보기 중 공개키 암호화 알고리즘이 **아닌 것**은 무엇인가?\n1. RSA\n2. ECC\n3. DSA\n4. DES\n5. ElGamal\n6. Diffie-Hellman",
+    "answer": "DES (Data Encryption Standard)"
+  },
+  {
+    "question": "다음 보기 중 공개키 암호화 알고리즘이 **아닌 것**은 무엇인가?\n1. RSA\n2. ECC\n3. DSA\n4. AES\n5. ElGamal\n6. Diffie-Hellman",
+    "answer": "AES (Advanced Encryption Standard)"
+  },
+  {
+    "question": "다음 보기 중 **해시 함수 (Hash Function)**에 해당하는 것은 무엇인가?\n1. RSA\n2. AES\n3. MD5\n4. DES\n5. ECC\n6. Blowfish",
+    "answer": "MD5 (Message Digest 5)"
+  },
+  {
+    "question": "다음 보기 중 **해시 함수 (Hash Function)**에 해당하는 것은 무엇인가?\n1. SHA\n2. DSA\n3. 3DES\n4. RC5\n5. ElGamal\n6. SEED",
+    "answer": "SHA (Secure Hash Algorithm)"
+  }
+
+
+
+
+]

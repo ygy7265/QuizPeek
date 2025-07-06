@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>정보처리기사 실기 연습</title>
+
+  <!-- highlight.js CSS (IntelliJ 테마 비슷한 Darcula 테마) -->
+  <link rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/darcula.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #2b2b2b;
+      color: #ddd;
+    }
+
+    pre {
+      background: #2b2b2b; /* 코드 블록 배경 */
+      border-radius: 8px;   /* 모서리 둥글게 */
+      padding: 20px;        /* 여백 */
+      overflow-x: auto;     /* 가로 스크롤 */
+      box-shadow: 0 0 10px rgba(0,0,0,0.5); /* 그림자 */
+      border: 1px solid #444; /* 테두리로 네모박스 느낌 */
+      max-width: 100%;
+    }
+
+    button {
+      margin: 5px;
+    }
+
+    code {
+      font-family: 'JetBrains Mono', 'Consolas', 'Courier New', monospace; /* 코드 전용 폰트 */
+      font-size: 14px;
+      line-height: 1.5;
+      display: block;
+      white-space: pre;
+    }
+  </style>
+
+</head>
+<body>
+<!--<h1 id="title">문제 제목</h1>-->
+<h2 id="progress"></h2>
+<p id="description">문제 설명</p>
+<pre><code id="code" class="language-java"></code></pre>
+<button id="prevBtn">이전 문제</button>
+<button id="nextBtn">다음 문제</button>
+<button id="showAnswerBtn">답 보기</button>
+
+<pre id="answer" style="display:none;"></pre>
+
+<!-- 플러그인 -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/java.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/c.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/python.min.js"></script>
+<script src="../../codeScript.js"></script>
+</body>
+</html>
