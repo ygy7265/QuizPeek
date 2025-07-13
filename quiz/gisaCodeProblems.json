@@ -27,7 +27,7 @@
     "description": "C언어로 구현된 프로그램을 분석하고, 실행 결과를 쓰시오.",
     "language": "c",
     "code": "#include <stdio.h>\nint main() {\n    int a = 7;\n    int b = 2;\n    int c = (a >> b) + (b << a);\n    printf(\"%d\", c);\n    return 0;\n}",
-    "answer": "출력: 36"
+    "answer": "출력: 257"
   },
   {
     "description": "아래 싱글톤 클래스 코드에서, main 메서드 출력 결과를 쓰시오.",
@@ -51,19 +51,19 @@
     "description": "아래 파이썬 코드를 분석하고, 출력 결과를 쓰시오.",
     "language": "python",
     "code": "a = ['Seoul', 'Kyeonggi', 'Incheon', 'Daejeon', 'Daegu', 'Pusan']\nstr01 = 'S'\nfor i in a:\n    str01 = str01 + i[1]\nprint(str01)",
-    "answer": "출력: Sekaeu"
+    "answer": "출력: Seynaau"
   },
   {
     "description": "아래 파이썬 코드를 분석하고, 출력 결과를 예측하시오.",
     "language": "python",
     "code": "cities = ['Busan', 'Jeju', 'Daegu', 'Seoul']\nresult = ''\nfor city in cities:\n    result += city[-1]\nprint(result)",
-    "answer": "출력: nujl"
+    "answer": "출력: nuul"
   },
   {
     "description": "아래 파이썬 코드에서, 실행 결과를 쓰시오.",
     "language": "python",
     "code": "words = ['apple', 'banana', 'cherry', 'date']\noutput = 'A'\nfor w in words:\n    output += w[2]\nprint(output)",
-    "answer": "출력: Alhep"
+    "answer": "출력: Apnet"
   },
   {
     "description": "아래 C언어 프로그램을 분석하고, 실행 결과를 쓰시오.",
@@ -99,7 +99,7 @@
     "description": "아래 자바 프로그램의 실행 결과를 쓰시오.",
     "language": "java",
     "code": "class Alpha {\n  int x, y;\n  Alpha(int x, int y) {\n    this.x = x;\n    this.y = y;\n  }\n  int sum() {\n    return x - y;\n  }\n}\n\nclass Beta extends Alpha {\n  int x;\n  Beta(int x) {\n    super(x + 5, x - 2);\n    this.x = x;\n  }\n  int sum(int n) {\n    return super.sum() + n;\n  }\n}\n\npublic class Test {\n  public static void main(String[] args) {\n    Alpha a = new Beta(8);\n    System.out.println(a.sum());\n  }\n}",
-    "answer": "출력: 10"
+    "answer": "출력: 7"
   },
   {
     "description": "아래 C 프로그램의 실행 결과를 구하시오.",
@@ -231,19 +231,19 @@
     "description": "다음 C 프로그램의 실행 결과를 쓰시오.",
     "language": "c",
     "code": "#include <stdio.h>\nint main() {\n    int arr[2][3] = {{10, 20, 30}, {40, 50, 60}};\n    int *p[2] = {arr[0], arr[1]};\n    printf(\"%d\", p[0][1] + *(p[1] + 2) + **p);\n    return 0;\n}",
-    "answer": "출력: 80"
+    "answer": "출력: 90"
   },
   {
     "description": "다음 C 프로그램의 실행 결과를 쓰시오.",
     "language": "c",
     "code": "#include <stdio.h>\nint main() {\n    int matrix[3][3] = {{1,2,3},{4,5,6},{7,8,9}};\n    int *ptrs[2] = {matrix[0], matrix[2]};\n    printf(\"%d\", ptrs[0][2] + *(ptrs[1]+1) + **ptrs);\n    return 0;\n}",
-    "answer": "출력: 18"
+    "answer": "출력: 12"
   },
   {
     "description": "다음 C 프로그램의 실행 결과를 쓰시오.",
     "language": "c",
     "code": "#include <stdio.h>\nint main() {\n    int a[2][3] = {{3,6,9},{12,15,18}};\n    int *p[2] = {a[1], a[0]};\n    printf(\"%d\", p[0][0] + *(p[1]+1) + **p);\n    return 0;\n}",
-    "answer": "출력: 27"
+    "answer": "출력: 30"
   },
   {
     "description": "다음 C 프로그램의 실행 결과를 쓰시오.",
@@ -279,7 +279,7 @@
     "description": "다음 Java 프로그램의 실행 결과를 쓰시오.",
     "language": "java",
     "code": "public class Run {\n  static String[] x = new String[4];\n  static void func(String[] x, int y) {\n    for (int i = 1; i < y; i++) {\n      if (x[i - 1].equals(x[i])) {\n        System.out.print(\"O\");\n      } else {\n        System.out.print(\"N\");\n      }\n    }\n    for (String s : x) {\n      System.out.print(s);\n    }\n  }\n  public static void main(String[] args) {\n    x[0] = \"X\";\n    x[1] = \"X\";\n    x[2] = \"Y\";\n    x[3] = new String(\"Y\");\n    func(x, 4);\n  }\n}",
-    "answer": "출력: ONNXXYY"
+    "answer": "출력: ONOXXYY"
   },
   {
     "description": "다음 Python 프로그램의 실행 결과를 쓰시오.",
@@ -339,13 +339,13 @@
     "description": "다음 Python 프로그램의 실행 결과를 쓰시오.",
     "language": "python",
     "code": "def func(value):\n    if type(value) == type(100):\n        return 100\n    elif type(value) == type(\"\"):\n        return len(value)\n    else:\n        return 20\n\na = \"100.0\"\nb = 100.0\nc = (100, 200)\nprint(func(a) + func(b) + func(c))",
-    "answer": "출력: 140"
+    "answer": "출력: 45"
   },
   {
     "description": "다음 Python 프로그램의 실행 결과를 쓰시오.",
     "language": "python",
     "code": "def func(value):\n    if type(value) == type(0.0):\n        return 50\n    elif type(value) == type(\"\"):\n        return len(value) * 2\n    else:\n        return 10\n\nx = \"hello\"\ny = 3.14\nz = [1, 2, 3]\nprint(func(x) + func(y) + func(z))",
-    "answer": "출력: 64"
+    "answer": "출력: 70"
   },
   {
     "description": "다음 Python 프로그램의 실행 결과를 쓰시오.",
@@ -363,13 +363,13 @@
     "description": "다음 Java 프로그램의 실행 결과를 쓰시오.",
     "language": "java",
     "code": "class A {\n    int x = 4;\n    int getX() {\n        return x + 1;\n    }\n}\nclass B extends A {\n    int x = 6;\n    int getX() {\n        return x + 2;\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        A obj1 = new B();\n        B obj2 = new B();\n        System.out.print(obj1.getX() + obj1.x + obj2.getX() + obj2.x);\n    }\n}",
-    "answer": "출력: 1116"
+    "answer": "출력: 26"
   },
   {
     "description": "다음 Java 프로그램의 실행 결과를 쓰시오.",
     "language": "java",
     "code": "class Parent {\n    int x = 5;\n    int getX() {\n        return x * 2;\n    }\n}\nclass Child extends Parent {\n    int x = 10;\n    int getX() {\n        return x * 3;\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Parent p = new Child();\n        Child c = new Child();\n        System.out.print(p.getX() + p.x + c.getX() + c.x);\n    }\n}",
-    "answer": "출력: 352010"
+    "answer": "출력: 75"
   },
   {
     "description": "다음 Java 프로그램의 실행 결과를 쓰시오.",
@@ -441,13 +441,13 @@
     "description": "다음 C 언어로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오. (출력문의 출력 서식을 준수하시오.)",
     "language": "c",
     "code": "#include <stdio.h>\nint main() {\n  char* a = \"keyboard\";\n  char* b = \"boardgame\";\n  for (int i = 0; a[i] != '\\0'; i++)\n    for (int j = 0; b[j] != '\\0'; j++)\n      if (a[i] == b[j])\n        printf(\"%c\", a[i]);\n  return 0;\n}",
-    "answer": "출력: board"
+    "answer": "출력: eboaard"
   },
   {
     "description": "다음은 2진수를 10진수로 변환하는 C 프로그램이다. 프로그램을 분석하여 괄호 ①, ②에 들어갈 알맞은 답을 쓰시오. (5점)",
     "language": "c",
     "code": "#include <stdio.h>\nint main() {\n  int input = 1101;\n  int di = 1;\n  int sum = 0;\n  while (1) {\n    if (input == 0) break;\n    sum = sum + (input % 10) * di;  // ① %  ② 10\n    di = di * 2;\n    input = input / 10;\n  }\n  printf(\"%d\", sum);\n  return 0;\n}",
-    "answer": "① % ② 10"
+    "answer": "13"
   },
   {
     "description": "다음은 2진수를 10진수로 변환하는 C 프로그램이다. 프로그램을 분석하여 괄호 ①, ②에 들어갈 알맞은 답을 쓰시오. (5점)",
@@ -507,7 +507,7 @@
     "description": "아래 C 프로그램을 분석하고 실행 결과를 쓰시오. 출력 서식을 준수하시오.",
     "language": "c",
     "code": "#include <stdio.h>\n#define MAX_SIZE 5\nint arr[MAX_SIZE];\nint top = -1;\nint isEmpty() {\n    if (top == -1) return 1;\n    return 0;\n}\nint isFull() {\n    if (top == MAX_SIZE) return 1;\n    return 0;\n}\nvoid push(int num) {\n    if (isFull() == 1) printf(\"Full\");\n    else arr[++top] = num;\n}\nint pop() {\n    if (isEmpty() == 1) printf(\"Empty\");\n    else return arr[top--];\n    return 0;\n}\nint main() {\n    push(1); push(2);\n    while (!isEmpty()) {\n        printf(\"%d\", pop());\n        push(3);\n        printf(\"%d\", pop());\n    }\n    return 0;\n}",
-    "answer": "출력: 213"
+    "answer": "출력: 2313"
   },
   {
     "description": "아래 C 프로그램을 분석하고 실행 결과를 쓰시오. 출력 서식을 준수하시오.",
@@ -519,13 +519,13 @@
     "description": "다음 Java 프로그램을 분석하여 실행 결과를 쓰시오. 출력 서식을 준수하시오.",
     "language": "java",
     "code": "class Parent {\n    public void display() {\n        System.out.print(\"X\");\n        show();\n    }\n    public void show() {\n        System.out.print(\"Y\");\n    }\n}\nclass Child extends Parent {\n    public void show() {\n        System.out.print(\"Z\");\n    }\n    public void display() {\n        super.display();\n        System.out.print(\"W\");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Parent obj = new Child();\n        obj.display();\n    }\n}",
-    "answer": "출력: XYZW"
+    "answer": "출력: XZW"
   },
   {
     "description": "다음 Java 프로그램을 분석하여 실행 결과를 쓰시오. 출력 서식을 준수하시오.",
     "language": "java",
     "code": "class Alpha {\n    public void print() {\n        System.out.print(\"M\");\n        printDetail();\n    }\n    public void printDetail() {\n        System.out.print(\"N\");\n    }\n}\nclass Beta extends Alpha {\n    public void printDetail() {\n        System.out.print(\"O\");\n    }\n    public void print() {\n        super.print();\n        System.out.print(\"P\");\n    }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Alpha a = new Beta();\n        a.print();\n    }\n}",
-    "answer": "출력: MONP"
+    "answer": "출력: MOP"
   },
   {
     "description": "다음 C 프로그램을 분석하여 실행 결과를 쓰시오. 출력 서식을 준수하시오.",
@@ -603,7 +603,7 @@
     "description": "다음 Java 프로그램을 분석하여 각 원소의 크기 순위를 계산한 후 result 배열에 저장한다. 그 실행 결과를 출력하시오. (출력 서식을 준수하시오.)",
     "language": "java",
     "code": "public class Test {\n public static void main(String[] args) {\n  int result[] = new int[5];\n  int arr[] = { 77, 32, 10, 99, 50 };\n  for(int i = 0; i < 5; i++) {\n   result[i] = 1;\n   for(int j = 0; j < 5; j++)\n    if(arr[i] < arr[j])\n     result[i]++;\n  }\n  for(int k = 0; k < 5; k++)\n   System.out.print(result[k]);\n }\n}",
-    "answer": "21453"
+    "answer": "24513"
   },
   {
     "description": "다음 Java 프로그램을 분석하여 배열 arr의 각 원소가 배열 내에서 몇 번째로 큰지 순위를 계산하고 출력하시오.",
@@ -675,13 +675,13 @@
     "description": "다음 Java로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오. (단, 출력문의 출력 서식을 준수하시오.)",
     "language": "java",
     "code": "class Test {\n public static void main(String args[]) {\n   Cond obj = new Cond(4);\n   obj.a = 2;\n   int b = obj.func();\n   System.out.print(obj.a + b);\n }\n}\nclass Cond {\n int a;\n public Cond(int a) {\n   this.a = a;\n }\n public int func() {\n   int b = 0;\n   for (int i = 1; i <= a; i++)\n     b += i;\n   return b;\n }\n}",
-    "answer": "12"
+    "answer": "5"
   },
   {
     "description": "다음 Java로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오. (단, 출력문의 출력 서식을 준수하시오.)",
     "language": "java",
     "code": "class Test {\n public static void main(String args[]) {\n   Calc obj = new Calc(2);\n   obj.x = 4;\n   int y = obj.compute();\n   System.out.print(obj.x + y);\n }\n}\nclass Calc {\n int x;\n public Calc(int x) {\n   this.x = x;\n }\n public int compute() {\n   int sum = 0;\n   for (int i = 0; i < x; i++)\n     sum += i;\n   return sum;\n }\n}",
-    "answer": "7"
+    "answer": "10"
   },
   {
     "description": "다음 Java로 구현된 프로그램을 분석하여 그 실행 결과를 쓰시오. (단, 출력문의 출력 서식을 준수하시오.)",
