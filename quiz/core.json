@@ -350,57 +350,5 @@
   {
     "question": "보안 공격을 위해 자신을 다른주체(권한 있는 주체)로 속이는 행위\n IP,MAC 주소 변경 등",
     "answer": "스푸핑(spoofing)"
-  },
-  {
-    "question": "",
-    "answer": ""
-  },
-  {
-    "question": "",
-    "answer": ""
-  },
-  {
-    "question": "",
-    "answer": ""
-  },
-  {
-    "question": "",
-    "answer": ""
-  },
-  {
-    "question": "",
-    "answer": ""
-  },
-  {
-    "question": "",
-    "answer": ""
-  },
-  {
-    "question": "",
-    "answer": ""
-  },
-  {
-    "question": "",
-    "answer": ""
-  },
-  {
-    "question": "",
-    "answer": ""
-  },
-  {
-    "question": "",
-    "answer": ""
-  },
-  {
-    "question": "",
-    "answer": ""
-  },
-  {
-    "question": "",
-    "answer": ""
-  },
-  {
-    "question": "",
-    "answer": ""
   }
 ]
